@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="vcs">
+      <project id="ng-code2" values="Git" />
+    </group>
+    <group name="module type">
+      <project id="ng-code2" values="WEB_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="ng-code2" values="JSHint,Images,SCSS,YAML,UNKNOWN,CSS,PLAIN_TEXT,JSON,JavaScript,XML,HTML" />
+    </group>
+    <group name="javaScript Frameworks">
+      <project id="ng-code2" values="node_modules" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="ng-code2" values="Project,Directory,Project" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="ng-code2" values="DEFAULT" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
+      <entry feature="ide.settings.Font" count="3" />
+      <entry feature="ide.settings.JavaScript" count="1" />
+      <entry feature="ide.settings.Keymap" count="16" />
+      <entry feature="ideaapp.started" count="4" />
+    </counts>
+  </component>
+</application>
+

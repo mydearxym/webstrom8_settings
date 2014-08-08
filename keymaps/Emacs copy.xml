@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="myself" parent="Emacs">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="K" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="0" />
+  </action>
+  <action id="CollapseSelection" />
+  <action id="Diff.FocusOppositePane" />
+  <action id="EditorChooseLookupItemDot" />
+  <action id="FileChooser.NewFile">
+    <keyboard-shortcut first-keystroke="F10" />
+  </action>
+  <action id="FileChooser.NewFolder" />
+  <action id="HighlightUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift control F7" />
+    <keyboard-shortcut first-keystroke="meta W" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="control N" />
+  </action>
+  <action id="NextSplitter" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="control PERIOD" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="control COMMA" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+</keymap>
+
