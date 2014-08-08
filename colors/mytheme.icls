@@ -6,6 +6,7 @@
   <option name="EDITOR_FONT_NAME" value="Monaco" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
+    <option name="ANNOTATIONS_COLOR" value="727780" />
     <option name="CARET_COLOR" value="bbbbbb" />
     <option name="CARET_ROW_COLOR" value="343d46" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2b303b" />
@@ -24,9 +25,9 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
-    <option name="GUTTER_BACKGROUND" value="2b303b" />
+    <option name="GUTTER_BACKGROUND" value="243750" />
     <option name="INDENT_GUIDE" value="4f5b66" />
-    <option name="LINE_NUMBERS_COLOR" value="eff1f5" />
+    <option name="LINE_NUMBERS_COLOR" value="9d9fa1" />
     <option name="METHOD_SEPARATORS_COLOR" value="343d46" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
@@ -443,7 +444,8 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="FOREGROUND" value="eff1f5" />
+        <option name="FOREGROUND" value="a86df5" />
+        <option name="BACKGROUND" value="243750" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -780,7 +782,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="eff1f5" />
-        <option name="BACKGROUND" value="2b303b" />
+        <option name="BACKGROUND" value="243750" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
