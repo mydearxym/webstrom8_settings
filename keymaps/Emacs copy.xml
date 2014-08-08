@@ -1,20 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="myself" parent="Emacs">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="alt C" />
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="control V" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="control 9" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="K" />
     <keyboard-shortcut first-keystroke="control X" second-keystroke="0" />
   </action>
   <action id="CollapseSelection" />
   <action id="Diff.FocusOppositePane" />
-  <action id="EditorChooseLookupItemDot" />
-  <action id="FileChooser.NewFile">
-    <keyboard-shortcut first-keystroke="F10" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="control C" />
   </action>
+  <action id="EditorChooseLookupItemDot" />
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="BACK_SPACE" />
+  </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="ENTER" />
+    <keyboard-shortcut first-keystroke="control J" />
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="control G" />
+    <keyboard-shortcut first-keystroke="meta G" />
+  </action>
+  <action id="EditorHungryBackSpace">
+    <keyboard-shortcut first-keystroke="control BACK_SPACE" />
+  </action>
+  <action id="EditorKillRegion" />
+  <action id="EditorKillToWordStart">
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="control M" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="control meta F" />
+  </action>
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="PAGE_DOWN" />
+    <keyboard-shortcut first-keystroke="meta N" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="PAGE_UP" />
+    <keyboard-shortcut first-keystroke="meta P" />
+  </action>
+  <action id="EditorPasteFromX11" />
+  <action id="EditorPasteSimple" />
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="control meta B" />
+  </action>
+  <action id="EditorScrollToCenter" />
+  <action id="EditorSwapSelectionBoundaries" />
   <action id="FileChooser.NewFolder" />
+  <action id="GotoBookmark0" />
+  <action id="GotoBookmark9" />
+  <action id="HideActiveWindow" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="control meta 0" />
+  </action>
   <action id="HighlightUsagesInFile">
     <keyboard-shortcut first-keystroke="shift control F7" />
     <keyboard-shortcut first-keystroke="meta W" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="control N" />
   </action>
@@ -22,9 +79,15 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="control PERIOD" />
   </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="alt Y" />
+    <keyboard-shortcut first-keystroke="control meta V" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="control COMMA" />
   </action>
+  <action id="QuickChangeScheme" />
+  <action id="ScrollTreeToCenter" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
   </action>
@@ -40,5 +103,6 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
   </action>
+  <action id="Unsplit" />
 </keymap>
 
