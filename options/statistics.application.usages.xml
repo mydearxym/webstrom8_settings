@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="StatisticsApplicationUsages">
-    <group name="vcs">
-      <project id="ng-code2" values="Git" />
-    </group>
     <group name="module type">
       <project id="ng-code2" values="WEB_MODULE" />
     </group>
-    <group name="file-type">
-      <project id="ng-code2" values="JSHint,Images,SCSS,YAML,UNKNOWN,CSS,PLAIN_TEXT,JSON,JavaScript,XML,HTML" />
+    <group name="vcs">
+      <project id="ng-code2" values="Git" />
     </group>
     <group name="javaScript Frameworks">
       <project id="ng-code2" values="node_modules" />
     </group>
-    <group name="javaScript Scope Usages">
-      <project id="ng-code2" values="Project,Directory,Project" />
+    <group name="file-type">
+      <project id="ng-code2" values="XML,JavaScript,JSON,CSS,PLAIN_TEXT,YAML,HTML,UNKNOWN,JSHint,Images,SCSS" />
     </group>
     <group name="JavaScript versions">
       <project id="ng-code2" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="ng-code2" values="Project,Project,Directory" />
     </group>
   </component>
   <component name="UsageTrigger">
@@ -31,7 +31,7 @@
       <entry feature="ide.settings.JavaScript" count="1" />
       <entry feature="ide.settings.Keymap" count="34" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
-      <entry feature="ideaapp.started" count="4" />
+      <entry feature="ideaapp.started" count="5" />
     </counts>
   </component>
 </application>

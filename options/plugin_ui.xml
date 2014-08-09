@@ -2,6 +2,7 @@
 <application>
   <component name="PluginManagerConfigurable">
     <option name="AVAILABLE_SORT_MODE" value="0" />
+    <option name="UPDATE_IN_BACKGROUND" value="true" />
     <option name="proportions">
       <list>
         <option value="0.5" />
