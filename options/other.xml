@@ -82,6 +82,11 @@
         <option value="$USER_HOME$/code/ng-code2" />
       </list>
     </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/code/ng-code2" />
+      </list>
+    </option>
     <option name="lastPath" value="$USER_HOME$/code/ng-code2" />
   </component>
   <component name="Registry">
@@ -132,7 +137,7 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1407582782664" />
+    <option name="LAST_TIME_CHECKED" value="1407681409085" />
     <option name="LAST_BUILD_CHECKED" value="WS-135.1063" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
