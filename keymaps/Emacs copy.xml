@@ -16,8 +16,14 @@
   </action>
   <action id="CollapseSelection" />
   <action id="Diff.FocusOppositePane" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="shift BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="control H" />
   </action>
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorDeleteToWordStart">
@@ -59,9 +65,18 @@
     <keyboard-shortcut first-keystroke="control meta B" />
   </action>
   <action id="EditorScrollToCenter" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="control I" />
+  </action>
   <action id="EditorSwapSelectionBoundaries" />
+  <action id="EditorToggleStickySelection">
+    <keyboard-shortcut first-keystroke="control 2" />
+  </action>
+  <action id="EditorUnSelectWord" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
   <action id="GotoBookmark0" />
+  <action id="GotoBookmark2" />
   <action id="GotoBookmark9" />
   <action id="HideActiveWindow" />
   <action id="HideAllWindows">
@@ -71,6 +86,7 @@
     <keyboard-shortcut first-keystroke="shift control F7" />
     <keyboard-shortcut first-keystroke="meta W" />
   </action>
+  <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="control N" />
@@ -88,6 +104,9 @@
   </action>
   <action id="QuickChangeScheme" />
   <action id="ScrollTreeToCenter" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="control meta I" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
   </action>
@@ -103,6 +122,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
   </action>
+  <action id="TypeHierarchy" />
   <action id="Unsplit" />
 </keymap>
 
