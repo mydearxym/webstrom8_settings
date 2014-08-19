@@ -8,13 +8,13 @@
       <project id="ng-code2" values="WEB_MODULE" />
     </group>
     <group name="file-type">
-      <project id="ng-code2" values="HTML,JavaScript,CSS,PLAIN_TEXT,UNKNOWN,JSON,YAML,JSHint,XML,Images,SCSS" />
+      <project id="ng-code2" values="XML,JSHint,Images,UNKNOWN,HTML,SCSS,CSS,JSON,JavaScript,PLAIN_TEXT,YAML" />
     </group>
     <group name="javaScript Frameworks">
       <project id="ng-code2" values="node_modules" />
     </group>
     <group name="javaScript Scope Usages">
-      <project id="ng-code2" values="Directory,Project,Project" />
+      <project id="ng-code2" values="Project,Directory,Project" />
     </group>
     <group name="JavaScript versions">
       <project id="ng-code2" values="DEFAULT" />
