@@ -4,6 +4,10 @@
     <keyboard-shortcut first-keystroke="alt C" />
     <keyboard-shortcut first-keystroke="control C" />
   </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="alt X" />
+    <keyboard-shortcut first-keystroke="meta X" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="control V" />
   </action>
@@ -15,10 +19,17 @@
     <keyboard-shortcut first-keystroke="control X" second-keystroke="0" />
   </action>
   <action id="CollapseSelection" />
+  <action id="CommentByBlockComment" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta SEMICOLON" />
+  </action>
   <action id="Diff.FocusOppositePane" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta X" />
   </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="BACK_SPACE" />
