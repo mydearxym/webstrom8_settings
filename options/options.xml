@@ -37,7 +37,7 @@
     <property name="Non-Project Files" value="Yellow" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
-    <property name="KEYMAP" value="comment&#10;inj&#10;history&#10;edit&#10;cut" />
+    <property name="KEYMAP" value="center&#10;comment&#10;inj&#10;history&#10;edit" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="FindSplitterProportion" value="0.25" />
     <property name="PLUGIN_FILTER" value="html&#10;jump&#10;emacs&#10;quick&#10;quickjump" />

@@ -75,7 +75,9 @@
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="control meta B" />
   </action>
-  <action id="EditorScrollToCenter" />
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="control L" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="control I" />
   </action>
@@ -114,7 +116,9 @@
     <keyboard-shortcut first-keystroke="control COMMA" />
   </action>
   <action id="QuickChangeScheme" />
-  <action id="ScrollTreeToCenter" />
+  <action id="ScrollTreeToCenter">
+    <keyboard-shortcut first-keystroke="control L" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="control meta I" />
   </action>
