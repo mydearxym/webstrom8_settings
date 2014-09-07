@@ -3,7 +3,7 @@
   <component name="DimensionService">
     <location key="WELCOME_SCREEN.0.0.1280.800" x="559" y="297" />
     <location key="#Browse_Repositories.0.0.1280.800" x="232" y="25" />
-    <location key="OptionsEditor.0.0.1280.800" x="30" y="22" />
+    <location key="OptionsEditor.0.0.1280.800" x="56" y="22" />
     <location key="CommitChangelistDialog2.0.0.1280.800" x="292" y="123" />
     <location key="#Browse_JetBrains_Plugins_.0.0.1280.800" x="212" y="73" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1280.800" x="357" y="288" />
@@ -11,6 +11,7 @@
     <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1280.800" x="385" y="218" />
     <location key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.0.1280.800" x="292" y="161" />
     <location key="#Custom_Plugin_Repositories.0.0.1280.800" x="580" y="328" />
+    <location key="FileChooserDialogImpl.0.0.1280.800" x="382" y="160" />
     <size key="OptionsEditor.0.0.1280.800" width="1224" height="778" />
     <size key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.0.1280.800" width="700" height="500" />
     <size key="GotoFile_FileTypePopup.0.0.1280.800" width="252" height="200" />
@@ -37,7 +38,7 @@
     <property name="Non-Project Files" value="Yellow" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
-    <property name="KEYMAP" value="center&#10;comment&#10;inj&#10;history&#10;edit" />
+    <property name="KEYMAP" value="in&#10;center&#10;comment&#10;inj&#10;history" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="FindSplitterProportion" value="0.25" />
     <property name="PLUGIN_FILTER" value="html&#10;jump&#10;emacs&#10;quick&#10;quickjump" />

@@ -101,6 +101,9 @@
   </action>
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="meta U" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="control N" />
   </action>

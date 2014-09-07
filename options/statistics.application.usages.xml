@@ -11,7 +11,7 @@
       <project id="ng-code2" values="node_modules" />
     </group>
     <group name="file-type">
-      <project id="ng-code2" values="UNKNOWN,HTML,YAML,CSS,Images,JSHint,PLAIN_TEXT,JSON,SCSS,JavaScript,XML" />
+      <project id="ng-code2" values="PLAIN_TEXT,JavaScript,SCSS,XML,JSON,YAML,UNKNOWN,HTML,CSS,Images,JSHint" />
     </group>
     <group name="JavaScript versions">
       <project id="ng-code2" values="DEFAULT" />
@@ -30,10 +30,10 @@
       <entry feature="ide.settings.Font" count="3" />
       <entry feature="ide.settings.General" count="6" />
       <entry feature="ide.settings.JavaScript" count="4" />
-      <entry feature="ide.settings.Keymap" count="45" />
+      <entry feature="ide.settings.Keymap" count="46" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
       <entry feature="ide.settings.Plugins" count="1" />
-      <entry feature="ideaapp.started" count="23" />
+      <entry feature="ideaapp.started" count="25" />
     </counts>
   </component>
 </application>
