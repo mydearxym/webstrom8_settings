@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <versions>
-  <component name="ChangeListManager" version="1410444102619" />
+  <component name="ChangeListManager" version="1410446253761" />
   <component name="ChangesViewManager" version="1410444102620" />
   <component name="CreatePatchCommitExecutor" version="1410444102622" />
   <component name="DaemonCodeAnalyzer" version="1410444102623" />
   <component name="Encoding" version="1410444102624" />
   <component name="ExecutionTargetManager" version="1410444102624" />
   <component name="FavoritesManager" version="1410444102625" />
-  <component name="FileEditorManager" version="1410444670201" />
+  <component name="FileEditorManager" version="1410447353343" />
   <component name="FindManager" version="1410444102630" />
   <component name="Git.Settings" version="1410444102630" />
   <component name="GotoFileConfiguration" version="1409922955388" />
-  <component name="IdeDocumentHistory" version="1410444102630" />
+  <component name="IdeDocumentHistory" version="1410447343870" />
   <component name="JavaScriptLibraryMappings" version="1410444102719" />
   <component name="JsGruntFileManager" version="1410444102728" />
   <component name="ProjectFrameBounds" version="1410444102733" />
@@ -27,12 +27,12 @@
   <component name="SvnConfiguration" version="1410271661477" />
   <component name="TaskManager" version="1410444102764" />
   <component name="TodoView" version="1407467936602" />
-  <component name="ToolWindowManager" version="1410444670206" />
+  <component name="ToolWindowManager" version="1410447215677" />
   <component name="Vcs.Log.UiProperties" version="1410444102767" />
   <component name="VcsContentAnnotationSettings" version="1410444102767" />
   <component name="VcsDirectoryMappings" version="1410444102767" />
   <component name="VcsManagerConfiguration" version="1410444102768" />
   <component name="XDebuggerManager" version="1410444102771" />
-  <component name="editorHistoryManager" version="1410444670210" />
+  <component name="editorHistoryManager" version="1410447353349" />
 </versions>
 

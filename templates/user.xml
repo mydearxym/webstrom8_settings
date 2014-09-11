@@ -12,5 +12,13 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="di" value="directive(&quot;$a$&quot;,function(){&#10;    return {&#10;        restrict: &quot;E&quot;,&#10;        scope: {$b$},&#10;        template: '$c$'&#10;    }&#10;})" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
 
