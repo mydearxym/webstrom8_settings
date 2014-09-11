@@ -34,5 +34,8 @@
     <option name="SHOW_REFORMAT_DIALOG" value="true" />
     <option name="SHOW_OPIMIZE_IMPORTS_DIALOG" value="true" />
   </component>
+  <component name="LiveEditOptions">
+    <option name="liveEditing" value="true" />
+  </component>
 </application>
 

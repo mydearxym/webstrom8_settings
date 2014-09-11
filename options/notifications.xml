@@ -4,6 +4,8 @@
     <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
     <toolWindow group="Find in Path" />
     <toolWindow group="Grunt Console" />
+    <toolWindow group="Debugger messages" />
+    <toolWindow group="JavaScript debugger" />
   </component>
 </application>
 
