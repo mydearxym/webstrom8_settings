@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="user">
-  <template name="f" value="funtion($params$){&#10;&#10;}" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="f" value="function($params$){&#10;&#10;}" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
     <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -16,6 +16,33 @@
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="div" value="&lt;div $s$&gt;&lt;/div&gt;" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+    <variable name="s" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="conf" value="config(function($a$){&#10;    $b$&#10;})" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ctrl" value="controller(&quot;$a$&quot;, function(){&#10;    $b$&#10;});" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qd" value="var $name$ = $q.defer();$END$" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

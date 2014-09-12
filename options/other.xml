@@ -25,11 +25,14 @@
     <option name="FILE_MASK" />
     <option name="RECENT_FIND_STRINGS">
       <value>
-        <list size="4">
+        <list size="7">
           <item index="0" class="java.lang.String" itemvalue="defer" />
           <item index="1" class="java.lang.String" itemvalue="buttonTitle" />
           <item index="2" class="java.lang.String" itemvalue="isContent" />
           <item index="3" class="java.lang.String" itemvalue="$http" />
+          <item index="4" class="java.lang.String" itemvalue="one" />
+          <item index="5" class="java.lang.String" itemvalue="inter" />
+          <item index="6" class="java.lang.String" itemvalue="$interval" />
         </list>
       </value>
     </option>
@@ -97,7 +100,7 @@
     <entry key="ide.firstStartup" value="false" />
   </component>
   <component name="TemplateSettings">
-    <defaultShortcut shortcut="TAB" />
+    <defaultShortcut shortcut="ENTER" />
   </component>
   <component name="TodoConfiguration">
     <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
@@ -196,15 +199,15 @@
     </recent_templates>
   </component>
   <component name="com.intellij.javaee.ExternalResourceManagerImpl">
-    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
-    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
 </application>

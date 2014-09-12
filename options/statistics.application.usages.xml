@@ -4,23 +4,23 @@
     <group name="run-configuration-type">
       <project id="ng-code2" values="NodeJSConfigurationType" />
     </group>
-    <group name="vcs">
-      <project id="ng-code2" values="Git" />
-    </group>
     <group name="module type">
       <project id="ng-code2" values="WEB_MODULE" />
     </group>
-    <group name="file-type">
-      <project id="ng-code2" values="YAML,CSS,XML,HTML,UNKNOWN,Images,JavaScript,JSHint,JSON,PLAIN_TEXT,SCSS" />
+    <group name="vcs">
+      <project id="ng-code2" values="Git" />
     </group>
     <group name="javaScript Frameworks">
       <project id="ng-code2" values="node_modules" />
     </group>
-    <group name="javaScript Scope Usages">
-      <project id="ng-code2" values="Directory,Project,Project" />
+    <group name="file-type">
+      <project id="ng-code2" values="JavaScript,SCSS,JSON,HTML,UNKNOWN,CSS,JSHint,XML,YAML,Images,PLAIN_TEXT" />
     </group>
     <group name="JavaScript versions">
       <project id="ng-code2" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="ng-code2" values="Project,Project,Directory" />
     </group>
   </component>
   <component name="UsageTrigger">
@@ -35,12 +35,13 @@
       <entry feature="ide.settings.Font" count="3" />
       <entry feature="ide.settings.General" count="6" />
       <entry feature="ide.settings.JavaScript" count="4" />
-      <entry feature="ide.settings.Keymap" count="46" />
+      <entry feature="ide.settings.Keymap" count="50" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
+      <entry feature="ide.settings.Libraries" count="2" />
       <entry feature="ide.settings.Live_Edit" count="1" />
-      <entry feature="ide.settings.Live_Templates" count="18" />
+      <entry feature="ide.settings.Live_Templates" count="26" />
       <entry feature="ide.settings.Plugins" count="1" />
-      <entry feature="ideaapp.started" count="26" />
+      <entry feature="ideaapp.started" count="27" />
     </counts>
   </component>
 </application>
