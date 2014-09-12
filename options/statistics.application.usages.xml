@@ -29,11 +29,12 @@
       <entry feature="execute.NodeJSConfigurationType.Debug" count="20" />
       <entry feature="execute.NodeJSConfigurationType.Run" count="16" />
       <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.BrowseWordAtCaret" count="1" />
       <entry feature="ide.settings.Code_Completion" count="2" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
       <entry feature="ide.settings.Emmet_(Zen_Coding)" count="3" />
       <entry feature="ide.settings.Font" count="3" />
-      <entry feature="ide.settings.General" count="6" />
+      <entry feature="ide.settings.General" count="17" />
       <entry feature="ide.settings.JavaScript" count="4" />
       <entry feature="ide.settings.Keymap" count="56" />
       <entry feature="ide.settings.Language_Defaults" count="1" />

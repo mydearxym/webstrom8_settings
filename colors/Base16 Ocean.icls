@@ -75,6 +75,13 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="BROWSEWORDATCARET">
+      <value>
+        <option name="BACKGROUND" value="dce2ed" />
+        <option name="ERROR_STRIPE_COLOR" value="526da5" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="Block comment">
       <value>
         <option name="FOREGROUND" value="65737e" />
