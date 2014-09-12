@@ -22,7 +22,7 @@
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="ui.recentchanges" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.select.word" count="203" last-shown="0" last-used="1410477921213" shown-count="0" />
-    <feature id="refactoring.introduceVariable" count="1" last-shown="0" last-used="1410477814998" shown-count="0" />
+    <feature id="refactoring.introduceVariable" count="3" last-shown="0" last-used="1410524128042" shown-count="0" />
     <feature id="ui.tree.speedsearch" count="11" last-shown="0" last-used="1410514218445" shown-count="0" />
     <feature id="codeassists.comment.block" count="14" last-shown="0" last-used="1409753001934" shown-count="0" />
     <feature id="navigation.popup.class" count="2" last-shown="0" last-used="1406526527871" shown-count="0" />
@@ -50,10 +50,10 @@
       <option name="lastDate" value="1410451200000" />
     </completionStatsTag>
     <fixesStatsTag>
-      <option name="invocations" value="34" />
+      <option name="invocations" value="36" />
       <option name="startDate" value="1409673600000" />
-      <option name="dayCount" value="6" />
-      <option name="lastDate" value="1410364800000" />
+      <option name="dayCount" value="7" />
+      <option name="lastDate" value="1410451200000" />
     </fixesStatsTag>
   </component>
 </application>

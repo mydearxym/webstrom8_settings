@@ -55,15 +55,27 @@
     <keyboard-shortcut first-keystroke="control BACK_SPACE" />
   </action>
   <action id="EditorKillRegion" />
+  <action id="EditorKillRingSave" />
+  <action id="EditorKillToWordEnd" />
   <action id="EditorKillToWordStart">
     <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="control E" />
+  </action>
+  <action id="EditorLineEndWithSelection" />
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="control A" />
   </action>
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="control M" />
   </action>
-  <action id="EditorNextWordWithSelection">
-    <keyboard-shortcut first-keystroke="control meta F" />
-  </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageBottomWithSelection" />
+  <action id="EditorMoveToPageTop" />
+  <action id="EditorMoveToPageTopWithSelection" />
+  <action id="EditorNextWord" />
+  <action id="EditorNextWordWithSelection" />
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="PAGE_DOWN" />
     <keyboard-shortcut first-keystroke="meta N" />
@@ -74,20 +86,30 @@
   </action>
   <action id="EditorPasteFromX11" />
   <action id="EditorPasteSimple" />
-  <action id="EditorPreviousWordWithSelection">
-    <keyboard-shortcut first-keystroke="control meta B" />
-  </action>
+  <action id="EditorPreviousWordWithSelection" />
+  <action id="EditorRightWithSelection" />
+  <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="control L" />
   </action>
+  <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="control I" />
   </action>
+  <action id="EditorStartNewLine" />
+  <action id="EditorStartNewLineBefore" />
   <action id="EditorSwapSelectionBoundaries" />
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="shift alt PERIOD" />
+  </action>
+  <action id="EditorTextEndWithSelection" />
+  <action id="EditorToggleCase" />
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="control 2" />
   </action>
   <action id="EditorUnSelectWord" />
+  <action id="EditorUnindentSelection" />
+  <action id="EditorUpWithSelection" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
   <action id="GotoBookmark0" />
@@ -131,8 +153,7 @@
     <keyboard-shortcut first-keystroke="control meta I" />
   </action>
   <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="alt ENTER" />
-    <keyboard-shortcut first-keystroke="meta ENTER" />
+    <keyboard-shortcut first-keystroke="shift ENTER" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
