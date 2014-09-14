@@ -25,7 +25,7 @@
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="1" />
+      <entry feature="CreateFile.CreateFileAction" count="2" />
       <entry feature="execute.NodeJSConfigurationType.Debug" count="20" />
       <entry feature="execute.NodeJSConfigurationType.Run" count="16" />
       <entry feature="ide.settings.Appearance" count="3" />
@@ -33,7 +33,7 @@
       <entry feature="ide.settings.Code_Completion" count="2" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
       <entry feature="ide.settings.Editor_Tabs" count="1" />
-      <entry feature="ide.settings.Emmet_(Zen_Coding)" count="3" />
+      <entry feature="ide.settings.Emmet_(Zen_Coding)" count="4" />
       <entry feature="ide.settings.Font" count="7" />
       <entry feature="ide.settings.General" count="23" />
       <entry feature="ide.settings.JavaScript" count="4" />
@@ -41,7 +41,7 @@
       <entry feature="ide.settings.Language_Defaults" count="1" />
       <entry feature="ide.settings.Libraries" count="2" />
       <entry feature="ide.settings.Live_Edit" count="1" />
-      <entry feature="ide.settings.Live_Templates" count="26" />
+      <entry feature="ide.settings.Live_Templates" count="27" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.Smart_Keys" count="1" />
       <entry feature="ideaapp.started" count="30" />

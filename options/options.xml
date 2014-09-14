@@ -3,7 +3,7 @@
   <component name="DimensionService">
     <location key="WELCOME_SCREEN.0.0.1280.800" x="559" y="297" />
     <location key="#Browse_Repositories.0.0.1280.800" x="232" y="25" />
-    <location key="OptionsEditor.0.0.1280.800" x="14" y="22" />
+    <location key="OptionsEditor.0.0.1280.800" x="22" y="22" />
     <location key="CommitChangelistDialog2.0.0.1280.800" x="292" y="123" />
     <location key="#Browse_JetBrains_Plugins_.0.0.1280.800" x="212" y="73" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1280.800" x="357" y="288" />
