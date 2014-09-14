@@ -4,23 +4,23 @@
     <group name="run-configuration-type">
       <project id="ng-code2" values="NodeJSConfigurationType" />
     </group>
-    <group name="module type">
-      <project id="ng-code2" values="WEB_MODULE" />
-    </group>
     <group name="vcs">
       <project id="ng-code2" values="Git" />
     </group>
-    <group name="javaScript Frameworks">
-      <project id="ng-code2" values="node_modules" />
+    <group name="module type">
+      <project id="ng-code2" values="WEB_MODULE" />
     </group>
     <group name="file-type">
-      <project id="ng-code2" values="JavaScript,SCSS,JSON,HTML,UNKNOWN,CSS,JSHint,XML,YAML,Images,PLAIN_TEXT" />
+      <project id="ng-code2" values="PLAIN_TEXT,HTML,Images,UNKNOWN,JSON,SCSS,CSS,JSHint,JavaScript,XML,YAML" />
+    </group>
+    <group name="javaScript Frameworks">
+      <project id="ng-code2" values="jQuery,node_modules" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="ng-code2" values="Project,Project,Project,Project,Project,Project,Directory,Project" />
     </group>
     <group name="JavaScript versions">
       <project id="ng-code2" values="DEFAULT" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="ng-code2" values="Project,Project,Directory" />
     </group>
   </component>
   <component name="UsageTrigger">
@@ -28,13 +28,14 @@
       <entry feature="CreateFile.CreateFileAction" count="1" />
       <entry feature="execute.NodeJSConfigurationType.Debug" count="20" />
       <entry feature="execute.NodeJSConfigurationType.Run" count="16" />
-      <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.Appearance" count="3" />
       <entry feature="ide.settings.BrowseWordAtCaret" count="1" />
       <entry feature="ide.settings.Code_Completion" count="2" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
+      <entry feature="ide.settings.Editor_Tabs" count="1" />
       <entry feature="ide.settings.Emmet_(Zen_Coding)" count="3" />
-      <entry feature="ide.settings.Font" count="3" />
-      <entry feature="ide.settings.General" count="17" />
+      <entry feature="ide.settings.Font" count="7" />
+      <entry feature="ide.settings.General" count="23" />
       <entry feature="ide.settings.JavaScript" count="4" />
       <entry feature="ide.settings.Keymap" count="56" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
@@ -42,7 +43,8 @@
       <entry feature="ide.settings.Live_Edit" count="1" />
       <entry feature="ide.settings.Live_Templates" count="26" />
       <entry feature="ide.settings.Plugins" count="1" />
-      <entry feature="ideaapp.started" count="27" />
+      <entry feature="ide.settings.Smart_Keys" count="1" />
+      <entry feature="ideaapp.started" count="30" />
     </counts>
   </component>
 </application>
