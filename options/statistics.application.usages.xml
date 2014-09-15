@@ -4,23 +4,23 @@
     <group name="run-configuration-type">
       <project id="ng-code2" values="NodeJSConfigurationType" />
     </group>
-    <group name="vcs">
-      <project id="ng-code2" values="Git" />
-    </group>
     <group name="module type">
       <project id="ng-code2" values="WEB_MODULE" />
     </group>
-    <group name="file-type">
-      <project id="ng-code2" values="PLAIN_TEXT,HTML,Images,UNKNOWN,JSON,SCSS,CSS,JSHint,JavaScript,XML,YAML" />
+    <group name="vcs">
+      <project id="ng-code2" values="Git" />
     </group>
     <group name="javaScript Frameworks">
-      <project id="ng-code2" values="jQuery,node_modules" />
+      <project id="ng-code2" values="node_modules,jQuery" />
     </group>
-    <group name="javaScript Scope Usages">
-      <project id="ng-code2" values="Project,Project,Project,Project,Project,Project,Directory,Project" />
+    <group name="file-type">
+      <project id="ng-code2" values="YAML,PLAIN_TEXT,HTML,JavaScript,XML,SCSS,Images,JSON,UNKNOWN,CSS,JSHint" />
     </group>
     <group name="JavaScript versions">
       <project id="ng-code2" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="ng-code2" values="Project,Project,Directory,Project,Project,Project,Project,Project" />
     </group>
   </component>
   <component name="UsageTrigger">
@@ -44,7 +44,7 @@
       <entry feature="ide.settings.Live_Templates" count="27" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.Smart_Keys" count="1" />
-      <entry feature="ideaapp.started" count="30" />
+      <entry feature="ideaapp.started" count="31" />
     </counts>
   </component>
 </application>
