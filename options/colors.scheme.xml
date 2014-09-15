@@ -2,7 +2,7 @@
 <application>
   <component name="EditorColorsManagerImpl">
     <option name="USE_ONLY_MONOSPACED_FONTS" value="true" />
-    <global_color_scheme name="mytheme" />
+    <global_color_scheme name="my-darcula" />
   </component>
 </application>
 

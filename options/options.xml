@@ -3,7 +3,7 @@
   <component name="DimensionService">
     <location key="WELCOME_SCREEN.0.0.1280.800" x="559" y="297" />
     <location key="#Browse_Repositories.0.0.1280.800" x="232" y="25" />
-    <location key="OptionsEditor.0.0.1280.800" x="22" y="22" />
+    <location key="OptionsEditor.0.0.1280.800" x="56" y="22" />
     <location key="CommitChangelistDialog2.0.0.1280.800" x="292" y="123" />
     <location key="#Browse_JetBrains_Plugins_.0.0.1280.800" x="212" y="73" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1280.800" x="357" y="288" />
@@ -66,7 +66,7 @@
     <property name="FindSplitterProportion" value="0.25" />
     <property name="PLUGIN_FILTER" value="highlight&#10;html&#10;jump&#10;emacs&#10;quick" />
     <property name="export.settings.path" value="$USER_HOME$/Library/Preferences/WebStorm8/settings.jar" />
-    <property name="ColorChooser.RecentColors" value="91-187-193-255,,,105-141-208-255,,,98-180-89-255,,,180-128-77-255,,,30-35-46-255,,,33-48-70-255,,,36-55-80-255,,,245-234-103-255,,,168-109-245-255,,,157-159-161-255,,,114-119-128-255,,,104-119-131-255,,,233-245-154-255,,,105-122-142-255,,,68-75-93-255,,,177-189-114-255,,,164-176-102-255" />
+    <property name="ColorChooser.RecentColors" value="98-180-89-255,,,180-128-77-255,,,30-35-46-255,,,33-48-70-255,,,36-55-80-255,,,245-234-103-255,,,168-109-245-255,,,157-159-161-255,,,114-119-128-255,,,104-119-131-255,,,233-245-154-255,,,105-122-142-255,,,68-75-93-255,,,177-189-114-255,,,164-176-102-255,,,230-249-247-255,,,251-255-246-255,,,198-164-114-255,,,198-126-118-255,,,131-171-185-255" />
     <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$1.splitter" value="0.3" />
     <property name="FileTemplates.CurrentTab" value="Templates" />
     <property name="FileTemplates.SelectedTemplate" value="JavaScript File" />
