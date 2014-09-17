@@ -21,7 +21,7 @@
     <feature id="editing.completion.replace" count="6" last-shown="0" last-used="1410703097470" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="ui.recentchanges" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.select.word" count="303" last-shown="0" last-used="1410940944697" shown-count="0" />
+    <feature id="editing.select.word" count="313" last-shown="0" last-used="1410945770739" shown-count="0" />
     <feature id="refactoring.introduceVariable" count="6" last-shown="0" last-used="1410857565196" shown-count="0" />
     <feature id="ui.tree.speedsearch" count="11" last-shown="0" last-used="1410514218445" shown-count="0" />
     <feature id="codeassists.comment.block" count="14" last-shown="0" last-used="1409753001934" shown-count="0" />

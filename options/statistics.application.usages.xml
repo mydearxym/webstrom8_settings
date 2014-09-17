@@ -39,13 +39,13 @@
       <entry feature="ide.settings.General" count="34" />
       <entry feature="ide.settings.HTML" count="1" />
       <entry feature="ide.settings.JavaScript" count="7" />
-      <entry feature="ide.settings.Keymap" count="61" />
+      <entry feature="ide.settings.Keymap" count="63" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
       <entry feature="ide.settings.Libraries" count="2" />
       <entry feature="ide.settings.Live_Edit" count="1" />
-      <entry feature="ide.settings.Live_Templates" count="28" />
+      <entry feature="ide.settings.Live_Templates" count="29" />
       <entry feature="ide.settings.Plugins" count="1" />
-      <entry feature="ide.settings.Smart_Keys" count="1" />
+      <entry feature="ide.settings.Smart_Keys" count="2" />
       <entry feature="ideaapp.started" count="35" />
     </counts>
   </component>

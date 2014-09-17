@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <versions>
   <component name="AbbreviationManager" version="1410773733195" />
-  <component name="CodeInsightSettings" version="1410773947202" />
+  <component name="CodeInsightSettings" version="1410945756723" />
   <component name="CodeStyleSchemeSettings" version="1410773733199" />
   <component name="DaemonCodeAnalyzerSettings" version="1410773733199" />
   <component name="DimensionService" version="1410857613237" />
@@ -11,7 +11,7 @@
   <component name="Encoding" version="1410773733201" />
   <component name="ExportableFileTemplateSettings" version="1410773733201" />
   <component name="ExportableTemplateSettings" version="1410776289161" />
-  <component name="FeatureUsageStatistics" version="1410941255149" />
+  <component name="FeatureUsageStatistics" version="1410945774999" />
   <component name="FileBasedIndex" version="1410773733201" />
   <component name="FileTypeManager" version="1410773733208" />
   <component name="FindSettings" version="1410853617070" />
@@ -26,7 +26,7 @@
   <component name="PathMacrosImpl" version="1410773733213" />
   <component name="PluginManagerConfigurable" version="1410838064350" />
   <component name="ProjectManager" version="1410773733213" />
-  <component name="PropertiesComponent" version="1410941241339" />
+  <component name="PropertiesComponent" version="1410945259791" />
   <component name="RecentDirectoryProjectsManager" version="1410773733213" />
   <component name="Registry" version="1410773733213" />
   <component name="RunnerLayoutSettings" version="1410862755316" />
@@ -35,7 +35,7 @@
   <component name="TodoConfiguration" version="1410773733214" />
   <component name="UISettings" version="1410773733215" />
   <component name="UpdatesConfigurable" version="1410838064352" />
-  <component name="UsageTrigger" version="1410941241340" />
+  <component name="UsageTrigger" version="1410945756727" />
   <component name="UsagesStatistic" version="1410773733216" />
   <component name="WebBrowsersConfiguration" version="1410773733218" />
   <component name="WebServers" version="1410773733218" />
