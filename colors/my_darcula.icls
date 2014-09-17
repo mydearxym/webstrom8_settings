@@ -37,7 +37,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
     <option name="SELECTED_INDENT_GUIDE" value="505050" />
     <option name="SELECTED_TEARLINE_COLOR" value="787878" />
-    <option name="SELECTION_BACKGROUND" value="214283" />
+    <option name="SELECTION_BACKGROUND" value="525a6b" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="555555" />
     <option name="WHITESPACES" value="505050" />
@@ -849,8 +849,9 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="c6d9d7" />
+        <option name="BACKGROUND" value="484a2f" />
         <option name="EFFECT_COLOR" value="5d8730" />
-        <option name="ERROR_STRIPE_COLOR" value="5d8e48" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1822,7 +1823,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="fbfff6" />
+        <option name="FOREGROUND" value="bfd1cf" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="EFFECT_TYPE" value="5" />
       </value>

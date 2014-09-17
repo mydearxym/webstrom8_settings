@@ -17,6 +17,10 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="control 9" />
   </action>
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift meta B" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="K" />
     <keyboard-shortcut first-keystroke="control X" second-keystroke="0" />
@@ -26,6 +30,9 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta SEMICOLON" />
   </action>
+  <action id="Console.Jdbc.Execute" />
+  <action id="Console.Jpa.Execute" />
+  <action id="Console.SplitLine" />
   <action id="Diff.FocusOppositePane" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="Editor Copy">
@@ -39,6 +46,7 @@
     <keyboard-shortcut first-keystroke="shift BACK_SPACE" />
     <keyboard-shortcut first-keystroke="control H" />
   </action>
+  <action id="EditorChooseLookupItemAlways" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
@@ -110,11 +118,18 @@
   <action id="EditorUnSelectWord" />
   <action id="EditorUnindentSelection" />
   <action id="EditorUpWithSelection" />
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="shift meta M" />
+  </action>
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
   <action id="GotoBookmark0" />
   <action id="GotoBookmark2" />
   <action id="GotoBookmark9" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <keyboard-shortcut first-keystroke="shift meta J" />
+  </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta G" />
   </action>
@@ -128,6 +143,9 @@
   </action>
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="shift meta V" />
+  </action>
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="meta U" />
   </action>
@@ -155,6 +173,10 @@
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="shift ENTER" />
   </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="control alt T" />
+    <keyboard-shortcut first-keystroke="control ENTER" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
   </action>
@@ -172,5 +194,6 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="Unsplit" />
+  <action id="ViewSource" />
 </keymap>
 
