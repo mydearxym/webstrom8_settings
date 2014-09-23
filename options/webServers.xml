@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="WebServers">
+    <option name="servers">
+      <webServer id="60aefc4d-0a15-48da-af7e-e6fbb5d56703" name="ng_server" url="http://localhost:9000">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
     <sftpAdvancedGlobalOptions>
       <SftpAdvancedOptions />
     </sftpAdvancedGlobalOptions>
