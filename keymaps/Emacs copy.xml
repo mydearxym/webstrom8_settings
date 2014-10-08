@@ -164,6 +164,9 @@
     <keyboard-shortcut first-keystroke="control COMMA" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="control F10" />
+  </action>
   <action id="ScrollTreeToCenter">
     <keyboard-shortcut first-keystroke="control L" />
   </action>
