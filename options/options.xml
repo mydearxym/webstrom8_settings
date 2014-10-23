@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
-    <location key="WELCOME_SCREEN.0.0.1280.800" x="-851" y="389" />
+    <location key="WELCOME_SCREEN.0.0.1280.800" x="639" y="297" />
     <location key="#Browse_Repositories.0.0.1280.800" x="232" y="25" />
     <location key="OptionsEditor.0.0.1280.800" x="56" y="22" />
     <location key="CommitChangelistDialog2.0.0.1280.800" x="292" y="123" />
@@ -21,9 +21,12 @@
     <location key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.SIMPLE.0.0.1280.800" x="382" y="227" />
     <location key="com.intellij.lang.javascript.refactoring.extractMethod.JSExtractFunctionDialog.0.0.1280.800" x="404" y="59" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.-1920.-47.1920.1080" x="-1122" y="126" />
-    <location key="WELCOME_SCREEN.-1920.-47.1920.1080" x="-961" y="297" />
-    <location key="OptionsEditor.-1920.-47.1920.1080" x="14" y="22" />
+    <location key="WELCOME_SCREEN.-1920.-47.1920.1080" x="-1118" y="389" />
+    <location key="OptionsEditor.-1920.-47.1920.1080" x="-1457" y="143" />
     <location key="#Node.js_and_NPM.-1920.-47.1920.1080" x="-759" y="290" />
+    <location key="findTextDialog.0.0.1280.800" x="774" y="216" />
+    <location key="findTextDialog.-1920.-47.1920.1080" x="-1306" y="268" />
+    <location key="CommitChangelistDialog2.-1920.-47.1920.1080" x="-868" y="215" />
     <size key="OptionsEditor.0.0.1280.800" width="1224" height="778" />
     <size key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.0.1280.800" width="700" height="500" />
     <size key="GotoFile_FileTypePopup.0.0.1280.800" width="252" height="200" />
@@ -71,7 +74,7 @@
     <property name="Non-Project Files" value="Yellow" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
-    <property name="KEYMAP" value="run&#10;back&#10;dec&#10;extra method&#10;var" />
+    <property name="KEYMAP" value="editor&#10;find&#10;run&#10;back&#10;dec" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="FindSplitterProportion" value="0.25" />
     <property name="PLUGIN_FILTER" value="highlight&#10;html&#10;jump&#10;emacs&#10;quick" />

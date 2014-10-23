@@ -52,6 +52,7 @@
     <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
     <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="BACK_SPACE" />
   </action>
+  <action id="EditorDownWithSelection" />
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="ENTER" />
     <keyboard-shortcut first-keystroke="control J" />
@@ -75,6 +76,7 @@
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="control A" />
   </action>
+  <action id="EditorLineStartWithSelection" />
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="control M" />
   </action>
@@ -123,6 +125,10 @@
   </action>
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift control F" />
+    <keyboard-shortcut first-keystroke="control meta S" />
+  </action>
   <action id="GotoBookmark0" />
   <action id="GotoBookmark2" />
   <action id="GotoBookmark9" />
@@ -133,6 +139,7 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta G" />
   </action>
+  <action id="GotoSuperMethod" />
   <action id="HideActiveWindow" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="control meta 0" />
@@ -147,7 +154,7 @@
     <keyboard-shortcut first-keystroke="shift meta V" />
   </action>
   <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="meta U" />
+    <keyboard-shortcut first-keystroke="control U" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="control N" />

@@ -7,9 +7,11 @@
     <group name="module type">
       <project id="angular_app" values="WEB_MODULE" />
       <project id="ng-code2" values="WEB_MODULE" />
+      <project id="TabStylesInspiration" values="WEB_MODULE" />
+      <project id="TooltipStylesInspiration" values="WEB_MODULE" />
+      <project id="jsonWorkflow_demo" values="WEB_MODULE" />
       <project id="myapp" values="WEB_MODULE" />
       <project id="nodeProxy_demo" values="WEB_MODULE" />
-      <project id="rsmonitor" values="WEB_MODULE" />
     </group>
     <group name="vcs">
       <project id="ng-code2" values="Git" />
@@ -18,22 +20,27 @@
     <group name="deployment server">
       <project id="angular_app" values="LOCAL" />
       <project id="ng-code2" values="LOCAL" />
+      <project id="TabStylesInspiration" values="LOCAL" />
+      <project id="TooltipStylesInspiration" values="LOCAL" />
+      <project id="jsonWorkflow_demo" values="LOCAL" />
       <project id="myapp" values="LOCAL" />
       <project id="nodeProxy_demo" values="LOCAL" />
       <project id="rsmonitor" values="LOCAL" />
     </group>
     <group name="javaScript Frameworks">
       <project id="angular_app" values="node_modules" />
-      <project id="ng-code2" values="node_modules,jQuery" />
+      <project id="ng-code2" values="jQuery,node_modules" />
       <project id="nodeProxy_demo" values="node_modules" />
-      <project id="rsmonitor" values="node_modules" />
     </group>
     <group name="file-type">
-      <project id="angular_app" values="HTML,PLAIN_TEXT,JSON,YAML,JavaScript,JSHint,SCSS,LESS,Handlebars/Mustache,ARCHIVE,Native,Images,CoffeeScript,XML,UNKNOWN,CSS" />
-      <project id="ng-code2" values="JavaScript,JSON,YAML,UNKNOWN,CSS,XML,Images,HTML,JSHint,SCSS,PLAIN_TEXT" />
-      <project id="myapp" values="C#,SCSS,XML,CSS,PLAIN_TEXT,JSON,Images,C++,JavaScript,HTML,UNKNOWN" />
-      <project id="nodeProxy_demo" values="ActionScript,UNKNOWN,PLAIN_TEXT,JSON,LESS,HTML,JavaScript,XML,CSS" />
-      <project id="rsmonitor" values="DTD,SCSS,LESS,CSS,ARCHIVE,Images,JSON,CoffeeScript,YAML,UNKNOWN,JavaScript,Native,PATCH,ActionScript,Perl,PLAIN_TEXT,C++,HTML,Jade,XML,Handlebars/Mustache,JSHint" />
+      <project id="angular_app" values="JSHint,UNKNOWN,Images,Handlebars/Mustache,CSS,Native,LESS,PLAIN_TEXT,JSON,XML,HTML,YAML,SCSS,JavaScript,CoffeeScript,ARCHIVE" />
+      <project id="ng-code2" values="UNKNOWN,SCSS,XML,JSHint,YAML,JavaScript,HTML,Images,CSS,JSON,PLAIN_TEXT" />
+      <project id="TabStylesInspiration" values="CSS,XML,HTML,JavaScript,UNKNOWN,Images,PLAIN_TEXT" />
+      <project id="TooltipStylesInspiration" values="PLAIN_TEXT,HTML,UNKNOWN,CSS,XML,Images" />
+      <project id="jsonWorkflow_demo" values="JavaScript,UNKNOWN,C++,HTML,PLAIN_TEXT,XML,CSS" />
+      <project id="myapp" values="JavaScript,HTML,SCSS,C#,XML,PLAIN_TEXT,Images,C++,CSS,JSON,UNKNOWN" />
+      <project id="nodeProxy_demo" values="XML,HTML,ActionScript,PLAIN_TEXT,JavaScript,CSS,LESS,JSON,UNKNOWN" />
+      <project id="rsmonitor" values="UNKNOWN" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="angular_app" values="NodeJSConfigurationType" />
@@ -43,21 +50,27 @@
     <group name="JavaScript versions">
       <project id="angular_app" values="DEFAULT" />
       <project id="ng-code2" values="DEFAULT" />
+      <project id="TabStylesInspiration" values="DEFAULT" />
+      <project id="TooltipStylesInspiration" values="DEFAULT" />
+      <project id="jsonWorkflow_demo" values="DEFAULT" />
       <project id="myapp" values="DEFAULT" />
       <project id="nodeProxy_demo" values="DEFAULT" />
       <project id="rsmonitor" values="DEFAULT" />
     </group>
     <group name="javaScript Scope Usages">
-      <project id="angular_app" values="Project,Project,Directory" />
+      <project id="angular_app" values="Project,Directory,Project" />
       <project id="ng-code2" values="Project,Directory,Project,Project,Project,Project,Project,Project" />
+      <project id="TabStylesInspiration" values="Project,Project" />
+      <project id="TooltipStylesInspiration" values="Project,Project" />
+      <project id="jsonWorkflow_demo" values="Project,Project" />
       <project id="myapp" values="Project,Project" />
       <project id="nodeProxy_demo" values="Directory,Project,Project" />
-      <project id="rsmonitor" values="Project,Project,Directory" />
+      <project id="rsmonitor" values="Project,Project" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="2" />
+      <entry feature="CreateFile.CreateFileAction" count="3" />
       <entry feature="NewDirectoryProjectAction.empty" count="2" />
       <entry feature="execute.JavaScriptTestRunnerKarma.Coverage" count="3" />
       <entry feature="execute.JavaScriptTestRunnerKarma.Debug" count="1" />
@@ -75,14 +88,14 @@
       <entry feature="ide.settings.General" count="34" />
       <entry feature="ide.settings.HTML" count="2" />
       <entry feature="ide.settings.JavaScript" count="10" />
-      <entry feature="ide.settings.Keymap" count="64" />
+      <entry feature="ide.settings.Keymap" count="69" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
       <entry feature="ide.settings.Libraries" count="2" />
       <entry feature="ide.settings.Live_Edit" count="1" />
-      <entry feature="ide.settings.Live_Templates" count="31" />
+      <entry feature="ide.settings.Live_Templates" count="33" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.Smart_Keys" count="2" />
-      <entry feature="ideaapp.started" count="43" />
+      <entry feature="ideaapp.started" count="45" />
     </counts>
   </component>
 </application>
