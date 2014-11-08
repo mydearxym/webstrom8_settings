@@ -4,20 +4,6 @@
     <group name="run-configuration-type">
       <project id="ng-code2" values="NodeJSConfigurationType" />
     </group>
-    <group name="deployment server">
-      <project id="angular_app" values="LOCAL" />
-      <project id="ng-code2" values="LOCAL" />
-      <project id="TabStylesInspiration" values="LOCAL" />
-      <project id="TooltipStylesInspiration" values="LOCAL" />
-      <project id="jsonWorkflow_demo" values="LOCAL" />
-      <project id="myapp" values="LOCAL" />
-      <project id="rsmonitor" values="LOCAL" />
-      <project id="nodeProxy_demo" values="LOCAL" />
-    </group>
-    <group name="vcs">
-      <project id="ng-code2" values="Git" />
-      <project id="rsmonitor" values="Git" />
-    </group>
     <group name="module type">
       <project id="angular_app" values="WEB_MODULE" />
       <project id="ng-code2" values="WEB_MODULE" />
@@ -25,39 +11,43 @@
       <project id="TooltipStylesInspiration" values="WEB_MODULE" />
       <project id="jsonWorkflow_demo" values="WEB_MODULE" />
       <project id="myapp" values="WEB_MODULE" />
-      <project id="nodeProxy_demo" values="WEB_MODULE" />
       <project id="rsmonitor" values="WEB_MODULE" />
+      <project id="nodeProxy_demo" values="WEB_MODULE" />
+    </group>
+    <group name="vcs">
+      <project id="ng-code2" values="Git" />
+      <project id="rsmonitor" values="Git" />
+    </group>
+    <group name="deployment server">
+      <project id="angular_app" values="LOCAL" />
+      <project id="ng-code2" values="LOCAL" />
+      <project id="TabStylesInspiration" values="LOCAL" />
+      <project id="TooltipStylesInspiration" values="LOCAL" />
+      <project id="jsonWorkflow_demo" values="LOCAL" />
+      <project id="myapp" values="LOCAL" />
+      <project id="nodeProxy_demo" values="LOCAL" />
+      <project id="rsmonitor" values="LOCAL" />
+    </group>
+    <group name="javaScript Frameworks">
+      <project id="angular_app" values="node_modules" />
+      <project id="ng-code2" values="node_modules,jQuery" />
+      <project id="rsmonitor" values="node_modules" />
+      <project id="nodeProxy_demo" values="node_modules" />
+    </group>
+    <group name="file-type">
+      <project id="angular_app" values="XML,CSS,PLAIN_TEXT,LESS,YAML,Native,Images,SCSS,JavaScript,Handlebars/Mustache,JSHint,ARCHIVE,HTML,JSON,UNKNOWN,CoffeeScript" />
+      <project id="ng-code2" values="Images,HTML,CSS,LESS,JavaScript,JSHint,SCSS,JSON,UNKNOWN,YAML,PLAIN_TEXT,XML" />
+      <project id="TabStylesInspiration" values="HTML,Images,CSS,UNKNOWN,XML,PLAIN_TEXT,JavaScript" />
+      <project id="TooltipStylesInspiration" values="UNKNOWN,XML,HTML,CSS,Images,PLAIN_TEXT" />
+      <project id="jsonWorkflow_demo" values="CSS,UNKNOWN,PLAIN_TEXT,HTML,JavaScript,C++,XML" />
+      <project id="myapp" values="JavaScript,JSON,PLAIN_TEXT,Images,C#,HTML,C++,UNKNOWN,XML,SCSS,CSS" />
+      <project id="nodeProxy_demo" values="PLAIN_TEXT,UNKNOWN,ActionScript,LESS,CSS,XML,JavaScript,JSON,HTML" />
+      <project id="rsmonitor" values="PATCH,Handlebars/Mustache,LESS,DTD,Jade,JSON,ARCHIVE,ActionScript,Native,CoffeeScript,Perl,PLAIN_TEXT,JSHint,XML,SCSS,JavaScript,CSS,HTML,C++,Images,UNKNOWN,YAML" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="angular_app" values="NodeJSConfigurationType" />
       <project id="ng-code2" values="JavaScriptTestRunnerKarma" />
       <project id="rsmonitor" values="JavaScriptTestRunnerKarma" />
-    </group>
-    <group name="file-type">
-      <project id="angular_app" values="SCSS,YAML,CSS,CoffeeScript,PLAIN_TEXT,JSHint,JavaScript,LESS,UNKNOWN,Images,HTML,JSON,Native,XML,Handlebars/Mustache,ARCHIVE" />
-      <project id="ng-code2" values="UNKNOWN,HTML,SCSS,LESS,PLAIN_TEXT,CSS,JSON,JavaScript,XML,Images,JSHint,YAML" />
-      <project id="TabStylesInspiration" values="HTML,JavaScript,UNKNOWN,CSS,Images,XML,PLAIN_TEXT" />
-      <project id="TooltipStylesInspiration" values="HTML,PLAIN_TEXT,Images,XML,CSS,UNKNOWN" />
-      <project id="jsonWorkflow_demo" values="UNKNOWN,C++,JavaScript,XML,PLAIN_TEXT,CSS,HTML" />
-      <project id="myapp" values="HTML,XML,C++,CSS,Images,JavaScript,C#,UNKNOWN,JSON,SCSS,PLAIN_TEXT" />
-      <project id="rsmonitor" values="PLAIN_TEXT,YAML,Handlebars/Mustache,XML,DTD,Images,LESS,CSS,CoffeeScript,JavaScript,ActionScript,JSON,Jade,ARCHIVE,UNKNOWN,SCSS,Perl,Native,C++,HTML,PATCH,JSHint" />
-      <project id="nodeProxy_demo" values="LESS,PLAIN_TEXT,HTML,JavaScript,UNKNOWN,XML,CSS,JSON,ActionScript" />
-    </group>
-    <group name="javaScript Frameworks">
-      <project id="angular_app" values="node_modules" />
-      <project id="ng-code2" values="node_modules,jQuery" />
-      <project id="nodeProxy_demo" values="node_modules" />
-      <project id="rsmonitor" values="node_modules" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="angular_app" values="Project,Directory,Project" />
-      <project id="ng-code2" values="Directory,Project,Project,Project,Project,Project,Project,Project" />
-      <project id="TabStylesInspiration" values="Project,Project" />
-      <project id="TooltipStylesInspiration" values="Project,Project" />
-      <project id="jsonWorkflow_demo" values="Project,Project" />
-      <project id="myapp" values="Project,Project" />
-      <project id="rsmonitor" values="Project,Project,Directory" />
-      <project id="nodeProxy_demo" values="Project,Directory,Project" />
     </group>
     <group name="JavaScript versions">
       <project id="angular_app" values="DEFAULT" />
@@ -66,13 +56,23 @@
       <project id="TooltipStylesInspiration" values="DEFAULT" />
       <project id="jsonWorkflow_demo" values="DEFAULT" />
       <project id="myapp" values="DEFAULT" />
-      <project id="rsmonitor" values="DEFAULT" />
       <project id="nodeProxy_demo" values="DEFAULT" />
+      <project id="rsmonitor" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="angular_app" values="Directory,Project,Project" />
+      <project id="ng-code2" values="Project,Directory,Project,Project,Project,Project,Project,Project" />
+      <project id="TabStylesInspiration" values="Project,Project" />
+      <project id="TooltipStylesInspiration" values="Project,Project" />
+      <project id="jsonWorkflow_demo" values="Project,Project" />
+      <project id="myapp" values="Project,Project" />
+      <project id="nodeProxy_demo" values="Project,Directory,Project" />
+      <project id="rsmonitor" values="Directory,Project,Project" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="3" />
+      <entry feature="CreateFile.CreateFileAction" count="5" />
       <entry feature="NewDirectoryProjectAction.empty" count="2" />
       <entry feature="execute.JavaScriptTestRunnerKarma.Coverage" count="3" />
       <entry feature="execute.JavaScriptTestRunnerKarma.Debug" count="1" />
@@ -88,17 +88,17 @@
       <entry feature="ide.settings.Emmet_(Zen_Coding)" count="4" />
       <entry feature="ide.settings.File_Types" count="1" />
       <entry feature="ide.settings.Font" count="37" />
-      <entry feature="ide.settings.General" count="34" />
+      <entry feature="ide.settings.General" count="36" />
       <entry feature="ide.settings.HTML" count="5" />
       <entry feature="ide.settings.JavaScript" count="10" />
       <entry feature="ide.settings.Keymap" count="69" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
-      <entry feature="ide.settings.Libraries" count="2" />
+      <entry feature="ide.settings.Libraries" count="3" />
       <entry feature="ide.settings.Live_Edit" count="1" />
-      <entry feature="ide.settings.Live_Templates" count="47" />
+      <entry feature="ide.settings.Live_Templates" count="59" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.Smart_Keys" count="2" />
-      <entry feature="ideaapp.started" count="48" />
+      <entry feature="ideaapp.started" count="49" />
     </counts>
   </component>
 </application>

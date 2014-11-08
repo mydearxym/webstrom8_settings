@@ -37,6 +37,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="bootstrap-DefinitelyTyped" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_bootstrap_bootstrap.d.ts" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_bootstrap_bootstrap.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="gruntjs-DefinitelyTyped" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -71,6 +82,39 @@
       </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_karma-jasmine_karma-jasmine.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="mocha-DefinitelyTyped" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_mocha_mocha.d.ts" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_mocha_mocha.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="underscore-DefinitelyTyped" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_underscore_underscore.d.ts" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_underscore_underscore.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="websocket-DefinitelyTyped" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_websocket_websocket.d.ts" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Library/Caches/WebStorm8/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_websocket_websocket.d.ts" />
       </CLASSES>
       <SOURCES />
     </library>

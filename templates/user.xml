@@ -85,5 +85,55 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ife" value="if (err) { console.log(err) };&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ( $a$ ) {&#10;  $b$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rsd" value="res.redirect(&quot;/&quot;);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fe" value="function(err, $a$) {&#10;  $b$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if&gt;" value="&lt;% if ($a$) { %&gt;&#10;&#10;&#10;&lt;% } %&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+    </context>
+  </template>
+  <template name="for&gt;" value="&lt;% $a$.forEach(function($b$){ %&gt;&#10;  $c$&#10;&lt;% }) %&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ifelse&gt;" value="&lt;% if ($a$) { %&gt;&#10;  $b$&#10;&lt;% } else { %&gt;&#10;  $c$&#10;&lt;% } %&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
 
