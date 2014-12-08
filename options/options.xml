@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
-    <location key="WELCOME_SCREEN.0.0.1280.800" x="2404" y="439" />
+    <location key="WELCOME_SCREEN.0.0.1280.800" x="2118" y="297" />
     <location key="#Browse_Repositories.0.0.1280.800" x="232" y="25" />
-    <location key="OptionsEditor.0.0.1280.800" x="30" y="22" />
+    <location key="OptionsEditor.0.0.1280.800" x="41" y="22" />
     <location key="CommitChangelistDialog2.0.0.1280.800" x="292" y="123" />
     <location key="#Browse_JetBrains_Plugins_.0.0.1280.800" x="212" y="73" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1280.800" x="357" y="288" />
@@ -21,18 +21,22 @@
     <location key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.SIMPLE.0.0.1280.800" x="382" y="227" />
     <location key="com.intellij.lang.javascript.refactoring.extractMethod.JSExtractFunctionDialog.0.0.1280.800" x="404" y="59" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.-1920.-47.1920.1080" x="-1122" y="126" />
-    <location key="WELCOME_SCREEN.-1920.-47.1920.1080" x="639" y="297" />
-    <location key="OptionsEditor.-1920.-47.1920.1080" x="-1414" y="145" />
+    <location key="WELCOME_SCREEN.-1920.-47.1920.1080" x="-1334" y="389" />
+    <location key="OptionsEditor.-1920.-47.1920.1080" x="-1848" y="185" />
     <location key="#Node.js_and_NPM.-1920.-47.1920.1080" x="-759" y="290" />
     <location key="findTextDialog.0.0.1280.800" x="774" y="216" />
     <location key="findTextDialog.-1920.-47.1920.1080" x="-1306" y="268" />
     <location key="CommitChangelistDialog2.-1920.-47.1920.1080" x="-868" y="215" />
-    <location key="WELCOME_SCREEN.1280.0.1600.900" x="2203" y="389" />
+    <location key="WELCOME_SCREEN.1280.0.1600.900" x="2080" y="297" />
     <location key="CommitChangelistDialog2.1280.0.1600.900" x="1689" y="172" />
-    <location key="OptionsEditor.1280.0.1600.900" x="1423" y="38" />
+    <location key="OptionsEditor.1280.0.1600.900" x="1599" y="28" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.1280.0.1600.900" x="1873" y="83" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.-1920.-47.1920.1080" x="-1259" y="282" />
     <location key="#Node.js_and_NPM.1280.0.1600.900" x="1706" y="243" />
+    <location key="#Node.js_and_NPM.0.0.1280.800" x="694" y="159" />
+    <location key="dock-window-1.-1920.-47.1920.1080" x="-1273" y="221" />
+    <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.-1920.-47.1920.1080" x="-1129" y="257" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.-1920.-47.1920.1080" x="-1141" y="161" />
     <size key="OptionsEditor.0.0.1280.800" width="1224" height="778" />
     <size key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.0.1280.800" width="700" height="500" />
     <size key="GotoFile_FileTypePopup.0.0.1280.800" width="252" height="200" />
@@ -56,8 +60,35 @@
     <size key="GridCell.Tab.4.center.0.0.1280.800" width="1255" height="203" />
     <size key="GridCell.Tab.4.right.0.0.1280.800" width="1255" height="203" />
     <size key="GridCell.Tab.4.bottom.0.0.1280.800" width="1255" height="203" />
-    <size key="OptionsEditor.-1920.-47.1920.1080" width="1224" height="778" />
+    <size key="OptionsEditor.-1920.-47.1920.1080" width="926" height="778" />
+    <size key="dock-window-1.-1920.-47.1920.1080" width="1031" height="560" />
+    <size key="GridCell.Tab.0.left.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.0.center.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.0.right.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.0.bottom.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.1.left.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.1.center.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.1.right.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.1.bottom.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.2.left.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.2.center.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.2.right.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.2.bottom.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.0.left.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.0.center.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.0.right.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.0.bottom.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.1.left.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.1.center.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.1.right.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.1.bottom.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.2.left.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.2.center.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.2.right.1280.0.1600.900" width="1148" height="262" />
+    <size key="GridCell.Tab.2.bottom.1280.0.1600.900" width="1148" height="262" />
+    <size key="javadoc.popup.-1920.-47.1920.1080" width="500" height="124" />
     <extendedState key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.MODE" state="0" />
+    <extendedState key="dock-window-1" state="0" />
   </component>
   <component name="LafManager">
     <laf class-name="idea.dark.laf.classname" />
@@ -73,19 +104,19 @@
     <property name="installation.uid" value="1f6ec4d9-f364-433e-82b9-9b1957dd90ec" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
-    <property name="javascript.grunt_toolwindow_splitter" value="0.2" />
+    <property name="javascript.grunt_toolwindow_splitter" value="0.15315315" />
     <property name="file.colors.enable.non.project" value="Yellow" />
     <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="Non-Project Files" value="Yellow" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
-    <property name="KEYMAP" value="window&#10;editor&#10;find&#10;run&#10;back" />
+    <property name="KEYMAP" value="scroll&#10;multi&#10;window&#10;editor&#10;find" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="FindSplitterProportion" value="0.25" />
     <property name="PLUGIN_FILTER" value="grunt&#10;highlight&#10;html&#10;jump&#10;emacs" />
     <property name="export.settings.path" value="$USER_HOME$/Library/Preferences/WebStorm8/settings.jar" />
-    <property name="ColorChooser.RecentColors" value="230-249-247-255,,,251-255-246-255,,,198-164-114-255,,,198-126-118-255,,,131-171-185-255,,,163-175-107-255,,,115-127-70-255,,,198-217-215-255,,,85-97-51-255,,,72-74-47-255,,,83-101-131-255,,,82-90-107-255,,,148-189-203-255,,,191-209-207-255,,,235-116-107-255,,,244-85-98-255,,,181-144-89-255,,,140-111-70-255,,,255-118-118-255,,,162-129-78-255" />
+    <property name="ColorChooser.RecentColors" value="168-145-93-255,,,168-136-105-255,,,95-168-174-255,,,99-174-153-255,,,93-136-193-255,,,188-154-119-255,,,204-98-98-255,,,202-126-82-255,,,202-145-97-255,,,99-79-175-255,,,142-103-242-255,,,173-146-242-255,,,242-232-100-255,,,212-202-89-255,,,203-195-104-255,,,255-198-109-255,,,167-167-167-255,,,145-158-173-255,,,173-173-141-255,,,178-178-178-255" />
     <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$1.splitter" value="0.3" />
     <property name="FileTemplates.CurrentTab" value="Templates" />
     <property name="FileTemplates.SelectedTemplate" value="JavaScript File" />
@@ -108,6 +139,8 @@
     <property name="emmet.last.wrap.abbreviations" value="div." />
     <property name="emmet.recent.wrap.abbreviations" value="div." />
     <property name="PACKAGE_FILTER" value="grunt" />
+    <property name="nodejs_interpreter_version" value="0.10.24" />
+    <property name="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.splitter" value="0.3" />
   </component>
 </application>
 

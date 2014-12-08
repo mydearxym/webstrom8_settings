@@ -4,101 +4,143 @@
     <group name="run-configuration-type">
       <project id="ng-code2" values="NodeJSConfigurationType" />
     </group>
-    <group name="module type">
-      <project id="angular_app" values="WEB_MODULE" />
-      <project id="ng-code2" values="WEB_MODULE" />
-      <project id="TabStylesInspiration" values="WEB_MODULE" />
-      <project id="TooltipStylesInspiration" values="WEB_MODULE" />
-      <project id="jsonWorkflow_demo" values="WEB_MODULE" />
-      <project id="myapp" values="WEB_MODULE" />
-      <project id="rsmonitor" values="WEB_MODULE" />
-      <project id="nodeProxy_demo" values="WEB_MODULE" />
+    <group name="deployment server">
+      <project id="angular_app" values="LOCAL" />
+      <project id="TabStylesInspiration" values="LOCAL" />
+      <project id="TooltipStylesInspiration" values="LOCAL" />
+      <project id="Schooner" values="LOCAL" />
+      <project id="angular-on-sails" values="LOCAL" />
+      <project id="waterline_demo" values="LOCAL" />
+      <project id="rsmonitor" values="LOCAL" />
+      <project id="testProject" values="LOCAL" />
+      <project id="ng-code2" values="LOCAL" />
+      <project id="waterline" values="LOCAL" />
+      <project id="jsonWorkflow_demo" values="LOCAL" />
+      <project id="myapp" values="LOCAL" />
+      <project id="sailng" values="LOCAL" />
+      <project id="nodeProxy_demo" values="LOCAL" />
     </group>
     <group name="vcs">
       <project id="ng-code2" values="Git" />
+      <project id="waterline" values="Git" />
+      <project id="Schooner" values="Git" />
+      <project id="angular-on-sails" values="Git" />
+      <project id="sailng" values="Git" />
       <project id="rsmonitor" values="Git" />
     </group>
-    <group name="deployment server">
-      <project id="angular_app" values="LOCAL" />
-      <project id="ng-code2" values="LOCAL" />
-      <project id="TabStylesInspiration" values="LOCAL" />
-      <project id="TooltipStylesInspiration" values="LOCAL" />
-      <project id="jsonWorkflow_demo" values="LOCAL" />
-      <project id="myapp" values="LOCAL" />
-      <project id="nodeProxy_demo" values="LOCAL" />
-      <project id="rsmonitor" values="LOCAL" />
-    </group>
-    <group name="javaScript Frameworks">
-      <project id="angular_app" values="node_modules" />
-      <project id="ng-code2" values="node_modules,jQuery" />
-      <project id="rsmonitor" values="node_modules" />
-      <project id="nodeProxy_demo" values="node_modules" />
-    </group>
-    <group name="file-type">
-      <project id="angular_app" values="XML,CSS,PLAIN_TEXT,LESS,YAML,Native,Images,SCSS,JavaScript,Handlebars/Mustache,JSHint,ARCHIVE,HTML,JSON,UNKNOWN,CoffeeScript" />
-      <project id="ng-code2" values="Images,HTML,CSS,LESS,JavaScript,JSHint,SCSS,JSON,UNKNOWN,YAML,PLAIN_TEXT,XML" />
-      <project id="TabStylesInspiration" values="HTML,Images,CSS,UNKNOWN,XML,PLAIN_TEXT,JavaScript" />
-      <project id="TooltipStylesInspiration" values="UNKNOWN,XML,HTML,CSS,Images,PLAIN_TEXT" />
-      <project id="jsonWorkflow_demo" values="CSS,UNKNOWN,PLAIN_TEXT,HTML,JavaScript,C++,XML" />
-      <project id="myapp" values="JavaScript,JSON,PLAIN_TEXT,Images,C#,HTML,C++,UNKNOWN,XML,SCSS,CSS" />
-      <project id="nodeProxy_demo" values="PLAIN_TEXT,UNKNOWN,ActionScript,LESS,CSS,XML,JavaScript,JSON,HTML" />
-      <project id="rsmonitor" values="PATCH,Handlebars/Mustache,LESS,DTD,Jade,JSON,ARCHIVE,ActionScript,Native,CoffeeScript,Perl,PLAIN_TEXT,JSHint,XML,SCSS,JavaScript,CSS,HTML,C++,Images,UNKNOWN,YAML" />
+    <group name="module type">
+      <project id="angular_app" values="WEB_MODULE" />
+      <project id="TabStylesInspiration" values="WEB_MODULE" />
+      <project id="TooltipStylesInspiration" values="WEB_MODULE" />
+      <project id="Schooner" values="WEB_MODULE" />
+      <project id="angular-on-sails" values="WEB_MODULE" />
+      <project id="waterline_demo" values="WEB_MODULE" />
+      <project id="rsmonitor" values="WEB_MODULE" />
+      <project id="testProject" values="WEB_MODULE" />
+      <project id="ng-code2" values="WEB_MODULE" />
+      <project id="waterline" values="WEB_MODULE" />
+      <project id="jsonWorkflow_demo" values="WEB_MODULE" />
+      <project id="myapp" values="WEB_MODULE" />
+      <project id="sailng" values="WEB_MODULE" />
+      <project id="nodeProxy_demo" values="WEB_MODULE" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="angular_app" values="NodeJSConfigurationType" />
       <project id="ng-code2" values="JavaScriptTestRunnerKarma" />
+      <project id="Schooner" values="NodeJSConfigurationType" />
+      <project id="sailng" values="NodeJSConfigurationType" />
       <project id="rsmonitor" values="JavaScriptTestRunnerKarma" />
+    </group>
+    <group name="file-type">
+      <project id="angular_app" values="PLAIN_TEXT,Handlebars/Mustache,HTML,YAML,LESS,SCSS,CSS,Native,ARCHIVE,JavaScript,UNKNOWN,JSON,JSHint,XML,Images,CoffeeScript" />
+      <project id="TabStylesInspiration" values="CSS,XML,HTML,JavaScript,PLAIN_TEXT,Images,UNKNOWN" />
+      <project id="TooltipStylesInspiration" values="CSS,Images,PLAIN_TEXT,XML,HTML,UNKNOWN" />
+      <project id="Schooner" values="UNKNOWN,PLAIN_TEXT,CSS,LESS,Images,EJS,JSON,XML,JavaScript" />
+      <project id="angular-on-sails" values="EJS,XML,JavaScript,Jade,JSHint,JSON,Images,Literate CoffeeScript,ARCHIVE,PLAIN_TEXT,SCSS,CSS,HTML,C++,YAML,CoffeeScript,ActionScript,Perl,UNKNOWN,PATCH,LESS,Handlebars/Mustache" />
+      <project id="waterline_demo" values="JavaScript,XML,UNKNOWN" />
+      <project id="rsmonitor" values="SCSS,SourceMap,C++,DTD,EJS,Images,PLAIN_TEXT,Native,XML,JavaScript,UNKNOWN,CoffeeScript,YAML,Perl,PATCH,CSS,JSON,Jade,Handlebars/Mustache,LESS,JSHint,ARCHIVE,ActionScript,HTML" />
+      <project id="testProject" values="EJS,XML,UNKNOWN,CSS,LESS,PLAIN_TEXT,JavaScript,JSON,Images" />
+      <project id="ng-code2" values="HTML,Images,Jade,JSON,Perl,ARCHIVE,UNKNOWN,LESS,C++,JavaScript,PLAIN_TEXT,YAML,CSS,XML,PATCH,JSHint,SCSS,CoffeeScript,ActionScript" />
+      <project id="waterline" values="PLAIN_TEXT,YAML,JavaScript,XML,JSON,UNKNOWN" />
+      <project id="jsonWorkflow_demo" values="HTML,UNKNOWN,JavaScript,PLAIN_TEXT,CSS,C++,XML" />
+      <project id="myapp" values="XML,PLAIN_TEXT,UNKNOWN,Images,JavaScript,HTML,SCSS,C++,JSON,CSS,C#" />
+      <project id="sailng" values="LESS,EJS,Images,HTML,PLAIN_TEXT,Perl,JSON,TypeScript,Stylus,CSS,ARCHIVE,ActionScript,JavaScript,Jade,JSHint,UNKNOWN,YAML,XML" />
+      <project id="nodeProxy_demo" values="UNKNOWN,ActionScript,CSS,JSON,HTML,JavaScript,XML,LESS,PLAIN_TEXT" />
+    </group>
+    <group name="javaScript Frameworks">
+      <project id="testProject" values="node_modules" />
+      <project id="angular_app" values="node_modules" />
+      <project id="ng-code2" values="node_modules,jQuery" />
+      <project id="waterline" values="node_modules" />
+      <project id="Schooner" values="node_modules" />
+      <project id="sailng" values="node_modules" />
+      <project id="nodeProxy_demo" values="node_modules" />
+      <project id="rsmonitor" values="node_modules,Node.js Core Modules 0.10.24" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="angular_app" values="Project,Directory,Project" />
+      <project id="TabStylesInspiration" values="Project,Project" />
+      <project id="TooltipStylesInspiration" values="Project,Project" />
+      <project id="Schooner" values="Directory,Project,Project" />
+      <project id="angular-on-sails" values="Project,Project" />
+      <project id="waterline_demo" values="Project,Project" />
+      <project id="rsmonitor" values="Project,Project,Project,Directory,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="testProject" values="Project,Project,Directory" />
+      <project id="ng-code2" values="Directory,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="waterline" values="Directory,Project,Project" />
+      <project id="jsonWorkflow_demo" values="Project,Project" />
+      <project id="myapp" values="Project,Project" />
+      <project id="sailng" values="Project,Directory,Project" />
+      <project id="nodeProxy_demo" values="Project,Project,Directory" />
     </group>
     <group name="JavaScript versions">
       <project id="angular_app" values="DEFAULT" />
-      <project id="ng-code2" values="DEFAULT" />
       <project id="TabStylesInspiration" values="DEFAULT" />
       <project id="TooltipStylesInspiration" values="DEFAULT" />
+      <project id="Schooner" values="DEFAULT" />
+      <project id="angular-on-sails" values="DEFAULT" />
+      <project id="waterline_demo" values="DEFAULT" />
+      <project id="rsmonitor" values="DEFAULT" />
+      <project id="testProject" values="DEFAULT" />
+      <project id="ng-code2" values="DEFAULT" />
+      <project id="waterline" values="DEFAULT" />
       <project id="jsonWorkflow_demo" values="DEFAULT" />
       <project id="myapp" values="DEFAULT" />
+      <project id="sailng" values="DEFAULT" />
       <project id="nodeProxy_demo" values="DEFAULT" />
-      <project id="rsmonitor" values="DEFAULT" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="angular_app" values="Directory,Project,Project" />
-      <project id="ng-code2" values="Project,Directory,Project,Project,Project,Project,Project,Project" />
-      <project id="TabStylesInspiration" values="Project,Project" />
-      <project id="TooltipStylesInspiration" values="Project,Project" />
-      <project id="jsonWorkflow_demo" values="Project,Project" />
-      <project id="myapp" values="Project,Project" />
-      <project id="nodeProxy_demo" values="Project,Directory,Project" />
-      <project id="rsmonitor" values="Directory,Project,Project" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="5" />
+      <entry feature="CreateFile.CreateFileAction" count="12" />
+      <entry feature="CreateFile.CreateTypeScriptFileAction" count="1" />
       <entry feature="NewDirectoryProjectAction.empty" count="2" />
       <entry feature="execute.JavaScriptTestRunnerKarma.Coverage" count="3" />
       <entry feature="execute.JavaScriptTestRunnerKarma.Debug" count="1" />
       <entry feature="execute.JavaScriptTestRunnerKarma.Run" count="80" />
-      <entry feature="execute.NodeJSConfigurationType.Debug" count="34" />
+      <entry feature="execute.NodeJSConfigurationType.Debug" count="84" />
       <entry feature="execute.NodeJSConfigurationType.Run" count="24" />
       <entry feature="ide.settings.Appearance" count="6" />
       <entry feature="ide.settings.BrowseWordAtCaret" count="1" />
       <entry feature="ide.settings.Code_Completion" count="2" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="11" />
+      <entry feature="ide.settings.Console_Font" count="2" />
       <entry feature="ide.settings.EJS" count="2" />
       <entry feature="ide.settings.Editor_Tabs" count="1" />
       <entry feature="ide.settings.Emmet_(Zen_Coding)" count="4" />
       <entry feature="ide.settings.File_Types" count="1" />
-      <entry feature="ide.settings.Font" count="37" />
-      <entry feature="ide.settings.General" count="36" />
-      <entry feature="ide.settings.HTML" count="5" />
-      <entry feature="ide.settings.JavaScript" count="10" />
+      <entry feature="ide.settings.Font" count="38" />
+      <entry feature="ide.settings.General" count="37" />
+      <entry feature="ide.settings.HTML" count="6" />
+      <entry feature="ide.settings.JavaScript" count="40" />
       <entry feature="ide.settings.Keymap" count="69" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
-      <entry feature="ide.settings.Libraries" count="3" />
+      <entry feature="ide.settings.Libraries" count="4" />
       <entry feature="ide.settings.Live_Edit" count="1" />
-      <entry feature="ide.settings.Live_Templates" count="59" />
+      <entry feature="ide.settings.Live_Templates" count="71" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.Smart_Keys" count="2" />
-      <entry feature="ideaapp.started" count="49" />
+      <entry feature="ideaapp.started" count="62" />
     </counts>
   </component>
 </application>

@@ -45,9 +45,9 @@
         <option name="displayName" value="Debugger" />
         <option name="index" value="0" />
         <option name="leftDetached" value="false" />
-        <option name="leftProportion" value="0.07050529" />
+        <option name="leftProportion" value="0.1942186" />
         <option name="rightDetached" value="false" />
-        <option name="rightProportion" value="0.07050529" />
+        <option name="rightProportion" value="0.071364045" />
       </TabImpl>
       <TabImpl>
         <option name="bottomDetached" value="false" />
