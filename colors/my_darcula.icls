@@ -1127,21 +1127,21 @@
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FOREGROUND" value="ddc05e" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FOREGROUND" value="ffe16c" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="ca9161" />
+        <option name="FOREGROUND" value="f29155" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
