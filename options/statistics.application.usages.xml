@@ -62,7 +62,7 @@
       <project id="Schooner" values="XML,JavaScript,EJS,LESS,CSS,PLAIN_TEXT,UNKNOWN,Images,JSON" />
       <project id="angular-on-sails" values="ARCHIVE,JSON,C++,LESS,Handlebars/Mustache,Literate CoffeeScript,CoffeeScript,JSHint,Perl,UNKNOWN,PLAIN_TEXT,YAML,PATCH,Jade,CSS,EJS,JavaScript,HTML,ActionScript,XML,Images,SCSS" />
       <project id="waterline_demo" values="JavaScript,UNKNOWN,XML" />
-      <project id="rsmonitor" values="PLAIN_TEXT,JSON,EJS,Jade,DTD,ARCHIVE,C++,SourceMap,JavaScript,XML,Images,YAML,Native,HTML,CoffeeScript,UNKNOWN,CSS,JSHint,SCSS,Perl,Handlebars/Mustache,PATCH,ActionScript,LESS" />
+      <project id="rsmonitor" values="Images,Handlebars/Mustache,SCSS,PLAIN_TEXT,HTML,Native,UNKNOWN,EJS,PATCH,DTD,C++,ActionScript,XML,YAML,JSON,CSS,JavaScript,JSHint,LESS,Perl,ARCHIVE,SourceMap,Jade,CoffeeScript" />
       <project id="testProject" values="UNKNOWN,CSS,Images,LESS,JavaScript,JSON,PLAIN_TEXT,EJS,XML" />
       <project id="ng-code2" values="C++,Images,JSHint,CSS,SCSS,ARCHIVE,JavaScript,CoffeeScript,XML,UNKNOWN,JSON,PLAIN_TEXT,HTML,LESS,Perl,YAML,ActionScript,PATCH,Jade" />
       <project id="waterline" values="JavaScript,PLAIN_TEXT,JSON,UNKNOWN,YAML,XML" />
@@ -80,7 +80,7 @@
       <project id="Schooner" values="node_modules" />
       <project id="sailng" values="node_modules" />
       <project id="nodeProxy_demo" values="node_modules" />
-      <project id="rsmonitor" values="Node.js Core Modules 0.10.24,node_modules" />
+      <project id="rsmonitor" values="node_modules,Node.js Core Modules 0.10.24" />
     </group>
     <group name="javaScript Scope Usages">
       <project id="angular_app" values="Project,Directory,Project" />
@@ -90,7 +90,7 @@
       <project id="Schooner" values="Project,Project,Directory" />
       <project id="angular-on-sails" values="Project,Project" />
       <project id="waterline_demo" values="Project,Project" />
-      <project id="rsmonitor" values="Project,Directory,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="rsmonitor" values="Project,Project,Project,Directory,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
       <project id="testProject" values="Project,Directory,Project" />
       <project id="ng-code2" values="Project,Directory,Project,Project,Project,Project,Project,Project" />
       <project id="waterline" values="Project,Project,Directory" />
@@ -144,7 +144,7 @@
       <entry feature="ide.settings.Language_Defaults" count="1" />
       <entry feature="ide.settings.Libraries" count="4" />
       <entry feature="ide.settings.Live_Edit" count="1" />
-      <entry feature="ide.settings.Live_Templates" count="71" />
+      <entry feature="ide.settings.Live_Templates" count="74" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.Smart_Keys" count="2" />
       <entry feature="ideaapp.started" count="64" />
