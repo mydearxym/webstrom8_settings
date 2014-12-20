@@ -206,5 +206,30 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="rs200" value="res.json(200, {$a$});" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rs401" value="res.json(401, {$a$});" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rs403" value="res.json(403, {$a$})" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifa" value="&lt;i class=&quot;fa fa-$a$&quot;&gt;&lt;/i&gt;&amp;nbsp;" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
 

@@ -863,7 +863,6 @@
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c6d9d7" />
-        <option name="BACKGROUND" value="484a2f" />
         <option name="EFFECT_COLOR" value="5d8730" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -2002,7 +2001,6 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="52503a" />
         <option name="ERROR_STRIPE_COLOR" value="8c8c00" />
         <option name="EFFECT_TYPE" value="2" />
       </value>

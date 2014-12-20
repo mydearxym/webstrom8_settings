@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
-    <location key="WELCOME_SCREEN.0.0.1280.800" x="2118" y="297" />
+    <location key="WELCOME_SCREEN.0.0.1280.800" x="642" y="389" />
     <location key="#Browse_Repositories.0.0.1280.800" x="232" y="25" />
-    <location key="OptionsEditor.0.0.1280.800" x="41" y="22" />
+    <location key="OptionsEditor.0.0.1280.800" x="21" y="22" />
     <location key="CommitChangelistDialog2.0.0.1280.800" x="292" y="123" />
     <location key="#Browse_JetBrains_Plugins_.0.0.1280.800" x="212" y="73" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1280.800" x="357" y="288" />
@@ -27,9 +27,9 @@
     <location key="findTextDialog.0.0.1280.800" x="774" y="216" />
     <location key="findTextDialog.-1920.-47.1920.1080" x="-1306" y="268" />
     <location key="CommitChangelistDialog2.-1920.-47.1920.1080" x="-868" y="215" />
-    <location key="WELCOME_SCREEN.1280.0.1600.900" x="2203" y="389" />
+    <location key="WELCOME_SCREEN.1280.0.1600.900" x="1876" y="388" />
     <location key="CommitChangelistDialog2.1280.0.1600.900" x="1689" y="172" />
-    <location key="OptionsEditor.1280.0.1600.900" x="444" y="22" />
+    <location key="OptionsEditor.1280.0.1600.900" x="269" y="22" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.1280.0.1600.900" x="1873" y="83" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.-1920.-47.1920.1080" x="-1259" y="282" />
     <location key="#Node.js_and_NPM.1280.0.1600.900" x="1706" y="243" />
@@ -37,6 +37,9 @@
     <location key="dock-window-1.-1920.-47.1920.1080" x="-1273" y="221" />
     <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.-1920.-47.1920.1080" x="-1129" y="257" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.-1920.-47.1920.1080" x="-1141" y="161" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.1280.0.1600.900" x="1654" y="316" />
+    <location key="vcs.readOnlyHandler.ReadOnlyStatusDialog.0.0.1280.800" x="410" y="264" />
+    <location key="git4idea.branch.GitSmartOperationDialog.0.0.1280.800" x="392" y="151" />
     <size key="OptionsEditor.0.0.1280.800" width="1224" height="778" />
     <size key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.0.1280.800" width="700" height="500" />
     <size key="GotoFile_FileTypePopup.0.0.1280.800" width="252" height="200" />
@@ -62,18 +65,18 @@
     <size key="GridCell.Tab.4.bottom.0.0.1280.800" width="1255" height="203" />
     <size key="OptionsEditor.-1920.-47.1920.1080" width="926" height="778" />
     <size key="dock-window-1.-1920.-47.1920.1080" width="1031" height="560" />
-    <size key="GridCell.Tab.0.left.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.0.center.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.0.right.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.0.bottom.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.1.left.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.1.center.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.1.right.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.1.bottom.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.2.left.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.2.center.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.2.right.-1920.-47.1920.1080" width="951" height="203" />
-    <size key="GridCell.Tab.2.bottom.-1920.-47.1920.1080" width="951" height="203" />
+    <size key="GridCell.Tab.0.left.-1920.-47.1920.1080" width="922" height="202" />
+    <size key="GridCell.Tab.0.center.-1920.-47.1920.1080" width="922" height="202" />
+    <size key="GridCell.Tab.0.right.-1920.-47.1920.1080" width="922" height="202" />
+    <size key="GridCell.Tab.0.bottom.-1920.-47.1920.1080" width="922" height="202" />
+    <size key="GridCell.Tab.1.left.-1920.-47.1920.1080" width="922" height="137" />
+    <size key="GridCell.Tab.1.center.-1920.-47.1920.1080" width="922" height="137" />
+    <size key="GridCell.Tab.1.right.-1920.-47.1920.1080" width="922" height="137" />
+    <size key="GridCell.Tab.1.bottom.-1920.-47.1920.1080" width="922" height="137" />
+    <size key="GridCell.Tab.2.left.-1920.-47.1920.1080" width="922" height="137" />
+    <size key="GridCell.Tab.2.center.-1920.-47.1920.1080" width="922" height="137" />
+    <size key="GridCell.Tab.2.right.-1920.-47.1920.1080" width="922" height="137" />
+    <size key="GridCell.Tab.2.bottom.-1920.-47.1920.1080" width="922" height="137" />
     <size key="GridCell.Tab.0.left.1280.0.1600.900" width="1148" height="262" />
     <size key="GridCell.Tab.0.center.1280.0.1600.900" width="1148" height="262" />
     <size key="GridCell.Tab.0.right.1280.0.1600.900" width="1148" height="262" />
@@ -87,7 +90,7 @@
     <size key="GridCell.Tab.2.right.1280.0.1600.900" width="1148" height="262" />
     <size key="GridCell.Tab.2.bottom.1280.0.1600.900" width="1148" height="262" />
     <size key="javadoc.popup.-1920.-47.1920.1080" width="500" height="124" />
-    <size key="OptionsEditor.1280.0.1600.900" width="836" height="800" />
+    <size key="OptionsEditor.1280.0.1600.900" width="836" height="778" />
     <extendedState key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.MODE" state="0" />
     <extendedState key="dock-window-1" state="0" />
   </component>
@@ -112,7 +115,7 @@
     <property name="Non-Project Files" value="Yellow" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
-    <property name="KEYMAP" value="scroll&#10;multi&#10;window&#10;editor&#10;find" />
+    <property name="KEYMAP" value="select&#10;scroll&#10;multi&#10;window&#10;editor" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="FindSplitterProportion" value="0.25" />
     <property name="PLUGIN_FILTER" value="grunt&#10;highlight&#10;html&#10;jump&#10;emacs" />
