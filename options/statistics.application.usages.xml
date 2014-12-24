@@ -4,37 +4,6 @@
     <group name="run-configuration-type">
       <project id="ng-code2" values="NodeJSConfigurationType" />
     </group>
-    <group name="deployment server">
-      <project id="angular_app" values="LOCAL" />
-      <project id="ionic_playground" values="LOCAL" />
-      <project id="TabStylesInspiration" values="LOCAL" />
-      <project id="sails_angular_auth_jsonwebtoken" values="LOCAL" />
-      <project id="TooltipStylesInspiration" values="LOCAL" />
-      <project id="Schooner" values="LOCAL" />
-      <project id="angular-on-sails" values="LOCAL" />
-      <project id="sails-angular-jwt-example" values="LOCAL" />
-      <project id="waterline_demo" values="LOCAL" />
-      <project id="rsmonitor" values="LOCAL" />
-      <project id="testProject" values="LOCAL" />
-      <project id="ng-code2" values="LOCAL" />
-      <project id="waterline" values="LOCAL" />
-      <project id="temp" values="LOCAL" />
-      <project id="jsonWorkflow_demo" values="LOCAL" />
-      <project id="sailng" values="LOCAL" />
-      <project id="myapp" values="LOCAL" />
-      <project id="nodeProxy_demo" values="LOCAL" />
-    </group>
-    <group name="vcs">
-      <project id="ng-code2" values="Git" />
-      <project id="ionic_playground" values="Git" />
-      <project id="waterline" values="Git" />
-      <project id="sails_angular_auth_jsonwebtoken" values="Git" />
-      <project id="Schooner" values="Git" />
-      <project id="angular-on-sails" values="Git" />
-      <project id="sails-angular-jwt-example" values="Git" />
-      <project id="sailng" values="Git" />
-      <project id="rsmonitor" values="Git" />
-    </group>
     <group name="module type">
       <project id="angular_app" values="WEB_MODULE" />
       <project id="ionic_playground" values="WEB_MODULE" />
@@ -51,36 +20,40 @@
       <project id="waterline" values="WEB_MODULE" />
       <project id="temp" values="WEB_MODULE" />
       <project id="jsonWorkflow_demo" values="WEB_MODULE" />
-      <project id="sailng" values="WEB_MODULE" />
       <project id="myapp" values="WEB_MODULE" />
+      <project id="sailng" values="WEB_MODULE" />
       <project id="nodeProxy_demo" values="WEB_MODULE" />
     </group>
-    <group name="run-configuration-type-temp">
-      <project id="angular_app" values="NodeJSConfigurationType" />
-      <project id="ng-code2" values="JavaScriptTestRunnerKarma" />
-      <project id="Schooner" values="NodeJSConfigurationType" />
-      <project id="sailng" values="NodeJSConfigurationType" />
-      <project id="rsmonitor" values="JavaScriptTestRunnerKarma" />
+    <group name="vcs">
+      <project id="ng-code2" values="Git" />
+      <project id="ionic_playground" values="Git" />
+      <project id="waterline" values="Git" />
+      <project id="sails_angular_auth_jsonwebtoken" values="Git" />
+      <project id="Schooner" values="Git" />
+      <project id="angular-on-sails" values="Git" />
+      <project id="sails-angular-jwt-example" values="Git" />
+      <project id="sailng" values="Git" />
+      <project id="rsmonitor" values="Git" />
     </group>
-    <group name="file-type">
-      <project id="angular_app" values="ARCHIVE,UNKNOWN,JSON,YAML,LESS,Native,CSS,Handlebars/Mustache,HTML,XML,JavaScript,Images,JSHint,CoffeeScript,PLAIN_TEXT,SCSS" />
-      <project id="ionic_playground" values="C#,C++,JavaScript,JSON,HTML,PLAIN_TEXT,LESS,JSHint,SCSS,XML,CSS,YAML,Images,UNKNOWN" />
-      <project id="TabStylesInspiration" values="JavaScript,PLAIN_TEXT,CSS,HTML,UNKNOWN,Images,XML" />
-      <project id="sails_angular_auth_jsonwebtoken" values="JSON,UNKNOWN,XML,JSHint,LESS,CSS,Images,EJS,YAML,TypeScript,JavaScript,HTML,PLAIN_TEXT" />
-      <project id="TooltipStylesInspiration" values="PLAIN_TEXT,HTML,Images,UNKNOWN,XML,CSS" />
-      <project id="Schooner" values="XML,JavaScript,Images,JSON,LESS,CSS,UNKNOWN,EJS,PLAIN_TEXT" />
-      <project id="angular-on-sails" values="ActionScript,XML,JavaScript,JSON,PATCH,Images,CoffeeScript,EJS,Perl,LESS,C++,YAML,SCSS,Jade,Literate CoffeeScript,ARCHIVE,CSS,PLAIN_TEXT,Handlebars/Mustache,JSHint,UNKNOWN,HTML" />
-      <project id="sails-angular-jwt-example" values="UNKNOWN,EJS,CSS,JavaScript,HTML,XML,Images,LESS,JSON,PLAIN_TEXT" />
-      <project id="waterline_demo" values="XML,JavaScript,UNKNOWN" />
-      <project id="rsmonitor" values="UNKNOWN,HTML,SourceMap,EJS,YAML,JSON,SCSS,XML,Jade,JSHint,CSS,Native,JavaScript,ActionScript,ARCHIVE,Images,Perl,PLAIN_TEXT,CoffeeScript,C++,DTD,LESS,PATCH,Handlebars/Mustache" />
-      <project id="testProject" values="CSS,UNKNOWN,JavaScript,EJS,Images,LESS,XML,JSON,PLAIN_TEXT" />
-      <project id="ng-code2" values="SCSS,PLAIN_TEXT,LESS,ActionScript,XML,JSON,Jade,JSHint,ARCHIVE,UNKNOWN,Perl,C++,CoffeeScript,YAML,PATCH,JavaScript,Images,CSS,HTML" />
-      <project id="waterline" values="JSON,JavaScript,YAML,PLAIN_TEXT,UNKNOWN,XML" />
-      <project id="temp" values="JSHint,LESS,EJS,Images,UNKNOWN,XML,JavaScript,ARCHIVE,ActionScript,CSS,JSON,YAML,Perl,TypeScript,Stylus,HTML,Jade,PLAIN_TEXT" />
-      <project id="jsonWorkflow_demo" values="JavaScript,PLAIN_TEXT,UNKNOWN,CSS,HTML,C++,XML" />
-      <project id="sailng" values="Images,Stylus,JSON,TypeScript,YAML,ARCHIVE,HTML,XML,JavaScript,EJS,PLAIN_TEXT,CSS,LESS,UNKNOWN,Jade,JSHint,Perl,ActionScript" />
-      <project id="myapp" values="CSS,Images,JavaScript,UNKNOWN,XML,HTML,C#,PLAIN_TEXT,C++,JSON,SCSS" />
-      <project id="nodeProxy_demo" values="CSS,PLAIN_TEXT,UNKNOWN,JavaScript,HTML,ActionScript,JSON,LESS,XML" />
+    <group name="deployment server">
+      <project id="angular_app" values="LOCAL" />
+      <project id="ionic_playground" values="LOCAL" />
+      <project id="TabStylesInspiration" values="LOCAL" />
+      <project id="sails_angular_auth_jsonwebtoken" values="LOCAL" />
+      <project id="TooltipStylesInspiration" values="LOCAL" />
+      <project id="Schooner" values="LOCAL" />
+      <project id="angular-on-sails" values="LOCAL" />
+      <project id="sails-angular-jwt-example" values="LOCAL" />
+      <project id="waterline_demo" values="LOCAL" />
+      <project id="rsmonitor" values="LOCAL" />
+      <project id="testProject" values="LOCAL" />
+      <project id="ng-code2" values="LOCAL" />
+      <project id="waterline" values="LOCAL" />
+      <project id="temp" values="LOCAL" />
+      <project id="jsonWorkflow_demo" values="LOCAL" />
+      <project id="myapp" values="LOCAL" />
+      <project id="sailng" values="LOCAL" />
+      <project id="nodeProxy_demo" values="LOCAL" />
     </group>
     <group name="javaScript Frameworks">
       <project id="testProject" values="node_modules" />
@@ -93,28 +66,35 @@
       <project id="Schooner" values="node_modules" />
       <project id="sails-angular-jwt-example" values="node_modules" />
       <project id="sailng" values="node_modules" />
+      <project id="rsmonitor" values="Node.js Core Modules 0.10.24,node_modules" />
       <project id="nodeProxy_demo" values="node_modules" />
-      <project id="rsmonitor" values="node_modules,Node.js Core Modules 0.10.24" />
     </group>
-    <group name="javaScript Scope Usages">
-      <project id="angular_app" values="Project,Directory,Project" />
-      <project id="ionic_playground" values="Project,Project,Directory" />
-      <project id="TabStylesInspiration" values="Project,Project" />
-      <project id="sails_angular_auth_jsonwebtoken" values="Project,Directory,Project" />
-      <project id="TooltipStylesInspiration" values="Project,Project" />
-      <project id="Schooner" values="Directory,Project,Project" />
-      <project id="angular-on-sails" values="Project,Project" />
-      <project id="sails-angular-jwt-example" values="Project,Project,Directory" />
-      <project id="waterline_demo" values="Project,Project" />
-      <project id="rsmonitor" values="Project,Directory,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
-      <project id="testProject" values="Project,Directory,Project" />
-      <project id="ng-code2" values="Project,Project,Project,Project,Project,Project,Directory,Project" />
-      <project id="waterline" values="Project,Project,Directory" />
-      <project id="temp" values="Project,Directory,Project" />
-      <project id="jsonWorkflow_demo" values="Project,Project" />
-      <project id="sailng" values="Project,Project,Directory" />
-      <project id="myapp" values="Project,Project" />
-      <project id="nodeProxy_demo" values="Project,Project,Directory" />
+    <group name="file-type">
+      <project id="angular_app" values="HTML,UNKNOWN,CoffeeScript,JSON,JavaScript,Handlebars/Mustache,LESS,Images,JSHint,PLAIN_TEXT,CSS,ARCHIVE,Native,XML,SCSS,YAML" />
+      <project id="ionic_playground" values="YAML,C#,Images,UNKNOWN,PLAIN_TEXT,JSON,JavaScript,HTML,C++,CSS,XML,LESS,JSHint,SCSS" />
+      <project id="TabStylesInspiration" values="PLAIN_TEXT,CSS,JavaScript,UNKNOWN,XML,HTML,Images" />
+      <project id="sails_angular_auth_jsonwebtoken" values="JSHint,HTML,XML,Images,CSS,JavaScript,TypeScript,JSON,YAML,PLAIN_TEXT,UNKNOWN,EJS,LESS" />
+      <project id="TooltipStylesInspiration" values="CSS,XML,HTML,UNKNOWN,PLAIN_TEXT,Images" />
+      <project id="Schooner" values="EJS,JSON,LESS,JavaScript,Images,XML,PLAIN_TEXT,UNKNOWN,CSS" />
+      <project id="angular-on-sails" values="JavaScript,JSON,Handlebars/Mustache,Jade,JSHint,Images,SCSS,UNKNOWN,LESS,EJS,PLAIN_TEXT,ARCHIVE,HTML,CSS,ActionScript,C++,Literate CoffeeScript,YAML,CoffeeScript,Perl,PATCH,XML" />
+      <project id="sails-angular-jwt-example" values="CSS,PLAIN_TEXT,EJS,LESS,XML,UNKNOWN,JavaScript,HTML,Images,JSON" />
+      <project id="waterline_demo" values="JavaScript,XML,UNKNOWN" />
+      <project id="rsmonitor" values="UNKNOWN,DTD,SCSS,CoffeeScript,PATCH,Handlebars/Mustache,CSS,Images,PLAIN_TEXT,JSON,Jade,JavaScript,ARCHIVE,Stylus,YAML,HTML,JSHint,LESS,Native,ActionScript,TypeScript,XML,C++,Perl,EJS" />
+      <project id="testProject" values="JSON,Images,EJS,JavaScript,PLAIN_TEXT,CSS,UNKNOWN,XML,LESS" />
+      <project id="ng-code2" values="PATCH,ARCHIVE,HTML,YAML,UNKNOWN,JavaScript,SCSS,Perl,Images,ActionScript,Jade,CoffeeScript,C++,PLAIN_TEXT,CSS,XML,JSON,LESS,JSHint" />
+      <project id="waterline" values="XML,UNKNOWN,JSON,PLAIN_TEXT,YAML,JavaScript" />
+      <project id="temp" values="Stylus,XML,CSS,ActionScript,UNKNOWN,PLAIN_TEXT,Jade,TypeScript,LESS,JSON,YAML,JSHint,EJS,JavaScript,ARCHIVE,Images,HTML,Perl" />
+      <project id="jsonWorkflow_demo" values="XML,UNKNOWN,C++,CSS,HTML,PLAIN_TEXT,JavaScript" />
+      <project id="myapp" values="C++,SCSS,HTML,PLAIN_TEXT,XML,CSS,C#,Images,JSON,UNKNOWN,JavaScript" />
+      <project id="sailng" values="Images,TypeScript,YAML,HTML,UNKNOWN,JSHint,ARCHIVE,LESS,Stylus,PLAIN_TEXT,ActionScript,Jade,XML,CSS,Perl,JavaScript,JSON,EJS" />
+      <project id="nodeProxy_demo" values="UNKNOWN,PLAIN_TEXT,JSON,ActionScript,JavaScript,XML,LESS,HTML,CSS" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="angular_app" values="NodeJSConfigurationType" />
+      <project id="ng-code2" values="JavaScriptTestRunnerKarma" />
+      <project id="Schooner" values="NodeJSConfigurationType" />
+      <project id="sailng" values="NodeJSConfigurationType" />
+      <project id="rsmonitor" values="JavaScriptTestRunnerKarma" />
     </group>
     <group name="JavaScript versions">
       <project id="angular_app" values="DEFAULT" />
@@ -132,9 +112,29 @@
       <project id="waterline" values="DEFAULT" />
       <project id="temp" values="DEFAULT" />
       <project id="jsonWorkflow_demo" values="DEFAULT" />
-      <project id="sailng" values="DEFAULT" />
       <project id="myapp" values="DEFAULT" />
+      <project id="sailng" values="DEFAULT" />
       <project id="nodeProxy_demo" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="angular_app" values="Directory,Project,Project" />
+      <project id="ionic_playground" values="Directory,Project,Project" />
+      <project id="TabStylesInspiration" values="Project,Project" />
+      <project id="sails_angular_auth_jsonwebtoken" values="Project,Directory,Project" />
+      <project id="TooltipStylesInspiration" values="Project,Project" />
+      <project id="Schooner" values="Project,Project,Directory" />
+      <project id="angular-on-sails" values="Project,Project" />
+      <project id="sails-angular-jwt-example" values="Project,Directory,Project" />
+      <project id="waterline_demo" values="Project,Project" />
+      <project id="rsmonitor" values="Project,Directory,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="testProject" values="Project,Project,Directory" />
+      <project id="ng-code2" values="Project,Directory,Project,Project,Project,Project,Project,Project" />
+      <project id="waterline" values="Directory,Project,Project" />
+      <project id="temp" values="Directory,Project,Project" />
+      <project id="jsonWorkflow_demo" values="Project,Project" />
+      <project id="myapp" values="Project,Project" />
+      <project id="sailng" values="Project,Project,Directory" />
+      <project id="nodeProxy_demo" values="Project,Project,Directory" />
     </group>
   </component>
   <component name="UsageTrigger">
@@ -164,10 +164,10 @@
       <entry feature="ide.settings.Language_Defaults" count="1" />
       <entry feature="ide.settings.Libraries" count="4" />
       <entry feature="ide.settings.Live_Edit" count="1" />
-      <entry feature="ide.settings.Live_Templates" count="78" />
+      <entry feature="ide.settings.Live_Templates" count="82" />
       <entry feature="ide.settings.Plugins" count="1" />
       <entry feature="ide.settings.Smart_Keys" count="2" />
-      <entry feature="ideaapp.started" count="66" />
+      <entry feature="ideaapp.started" count="67" />
     </counts>
   </component>
 </application>

@@ -85,7 +85,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ife" value="if (err) { console.log(err) };&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="ife" value="if (err) { &#10;  sails.log.debug(err);&#10;  return res.json(401, {error:err})&#10;};&#10;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -229,6 +229,19 @@
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ifud" value="if(_.isUndefined($a$)){$b$}" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dq" value="var $a$ = $q.defer();&#10;return $a$.reject();&#10;return $a$.resolve();&#10;return $a$.promise;" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>

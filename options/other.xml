@@ -29,36 +29,36 @@
     <option name="RECENT_FIND_STRINGS">
       <value>
         <list size="30">
-          <item index="0" class="java.lang.String" itemvalue="select" />
-          <item index="1" class="java.lang.String" itemvalue="status" />
-          <item index="2" class="java.lang.String" itemvalue="UserCtrl" />
-          <item index="3" class="java.lang.String" itemvalue="re" />
-          <item index="4" class="java.lang.String" itemvalue="before" />
-          <item index="5" class="java.lang.String" itemvalue="save" />
-          <item index="6" class="java.lang.String" itemvalue="group" />
-          <item index="7" class="java.lang.String" itemvalue="cmgroup" />
-          <item index="8" class="java.lang.String" itemvalue="loadRoles" />
-          <item index="9" class="java.lang.String" itemvalue="usegroup" />
-          <item index="10" class="java.lang.String" itemvalue="roles" />
-          <item index="11" class="java.lang.String" itemvalue="getroles" />
-          <item index="12" class="java.lang.String" itemvalue="user cmgroups: " />
-          <item index="13" class="java.lang.String" itemvalue="btn-" />
-          <item index="14" class="java.lang.String" itemvalue="cssFilesToInject" />
-          <item index="15" class="java.lang.String" itemvalue="control" />
-          <item index="16" class="java.lang.String" itemvalue="treecontrol" />
-          <item index="17" class="java.lang.String" itemvalue="jsFilesToInjectNoPathChange" />
-          <item index="18" class="java.lang.String" itemvalue="tab" />
-          <item index="19" class="java.lang.String" itemvalue="justif" />
-          <item index="20" class="java.lang.String" itemvalue="nav" />
-          <item index="21" class="java.lang.String" itemvalue="tree" />
-          <item index="22" class="java.lang.String" itemvalue="client side" />
-          <item index="23" class="java.lang.String" itemvalue="png" />
-          <item index="24" class="java.lang.String" itemvalue="parse_item" />
-          <item index="25" class="java.lang.String" itemvalue="newPro" />
-          <item index="26" class="java.lang.String" itemvalue="NewProtocolHelper" />
-          <item index="27" class="java.lang.String" itemvalue="json" />
-          <item index="28" class="java.lang.String" itemvalue="common" />
-          <item index="29" class="java.lang.String" itemvalue="新字段" />
+          <item index="0" class="java.lang.String" itemvalue="shoud" />
+          <item index="1" class="java.lang.String" itemvalue="should" />
+          <item index="2" class="java.lang.String" itemvalue="getTree" />
+          <item index="3" class="java.lang.String" itemvalue="确" />
+          <item index="4" class="java.lang.String" itemvalue="确认添加" />
+          <item index="5" class="java.lang.String" itemvalue="addComponent" />
+          <item index="6" class="java.lang.String" itemvalue="addNewComponent" />
+          <item index="7" class="java.lang.String" itemvalue="update:treeDataUpdate" />
+          <item index="8" class="java.lang.String" itemvalue="updateTree" />
+          <item index="9" class="java.lang.String" itemvalue="label error" />
+          <item index="10" class="java.lang.String" itemvalue="添加" />
+          <item index="11" class="java.lang.String" itemvalue="addComponentItem" />
+          <item index="12" class="java.lang.String" itemvalue="async" />
+          <item index="13" class="java.lang.String" itemvalue="协议组名称" />
+          <item index="14" class="java.lang.String" itemvalue="selectComponentGroupNew" />
+          <item index="15" class="java.lang.String" itemvalue="self.checkExsit" />
+          <item index="16" class="java.lang.String" itemvalue="create component" />
+          <item index="17" class="java.lang.String" itemvalue="该协议" />
+          <item index="18" class="java.lang.String" itemvalue="create component error" />
+          <item index="19" class="java.lang.String" itemvalue="create" />
+          <item index="20" class="java.lang.String" itemvalue="checkExsit" />
+          <item index="21" class="java.lang.String" itemvalue="字段名" />
+          <item index="22" class="java.lang.String" itemvalue="组件预览" />
+          <item index="23" class="java.lang.String" itemvalue="componentPreview" />
+          <item index="24" class="java.lang.String" itemvalue="getProtocol" />
+          <item index="25" class="java.lang.String" itemvalue="_componentMap" />
+          <item index="26" class="java.lang.String" itemvalue="removeFromTree" />
+          <item index="27" class="java.lang.String" itemvalue="fuck" />
+          <item index="28" class="java.lang.String" itemvalue="tree" />
+          <item index="29" class="java.lang.String" itemvalue="removeComponent" />
         </list>
       </value>
     </option>
@@ -112,8 +112,8 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/code/rsmonitor" />
-        <option value="$USER_HOME$/code/sails_playground/temp" />
         <option value="$USER_HOME$/code/sails_playground/sailng" />
+        <option value="$USER_HOME$/code/sails_playground/temp" />
         <option value="$USER_HOME$/code/ionic_playground" />
         <option value="$USER_HOME$/code/sails_playground/sails-angular-jwt-example" />
         <option value="$USER_HOME$/code/sails_playground/sails_angular_auth_jsonwebtoken" />
@@ -251,15 +251,15 @@
     </recent_templates>
   </component>
   <component name="com.intellij.javaee.ExternalResourceManagerImpl">
-    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
-    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
 </application>
