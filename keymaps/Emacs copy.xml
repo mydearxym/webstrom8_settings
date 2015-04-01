@@ -18,8 +18,8 @@
     <keyboard-shortcut first-keystroke="control 9" />
   </action>
   <action id="Back">
-    <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="shift meta B" />
+    <keyboard-shortcut first-keystroke="control meta LEFT" />
+    <keyboard-shortcut first-keystroke="control meta P" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="K" />
@@ -129,6 +129,10 @@
     <keyboard-shortcut first-keystroke="shift control F" />
     <keyboard-shortcut first-keystroke="control meta S" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="control meta RIGHT" />
+    <keyboard-shortcut first-keystroke="control meta N" />
+  </action>
   <action id="GotoBookmark0" />
   <action id="GotoBookmark2" />
   <action id="GotoBookmark9" />
@@ -140,6 +144,9 @@
     <keyboard-shortcut first-keystroke="meta G" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta S" />
+  </action>
   <action id="HideActiveWindow" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="control meta 0" />
@@ -171,6 +178,9 @@
     <keyboard-shortcut first-keystroke="control COMMA" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift meta ENTER" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="control F10" />
   </action>
@@ -179,6 +189,9 @@
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="control meta I" />
+  </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="meta O" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta I" />

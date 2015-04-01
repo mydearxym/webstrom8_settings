@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="BaseRefactoringSettings">
+    <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
+    <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
+    <option name="SAFE_DELETE_SEARCH_IN_NON_JAVA" value="false" />
     <option name="MOVE_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
   </component>
   <component name="CodeStyleSchemes">
@@ -17,7 +20,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="false" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="false" />
     <option name="PRESERVE_CASE_REPLACE" value="false" />
-    <option name="WHOLE_WORDS_ONLY" value="false" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="COMMENTS_ONLY" value="false" />
     <option name="STRING_LITERALS_ONLY" value="false" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="false" />
@@ -29,47 +32,51 @@
     <option name="RECENT_FIND_STRINGS">
       <value>
         <list size="30">
-          <item index="0" class="java.lang.String" itemvalue="shoud" />
-          <item index="1" class="java.lang.String" itemvalue="should" />
-          <item index="2" class="java.lang.String" itemvalue="getTree" />
-          <item index="3" class="java.lang.String" itemvalue="确" />
-          <item index="4" class="java.lang.String" itemvalue="确认添加" />
-          <item index="5" class="java.lang.String" itemvalue="addComponent" />
-          <item index="6" class="java.lang.String" itemvalue="addNewComponent" />
-          <item index="7" class="java.lang.String" itemvalue="update:treeDataUpdate" />
-          <item index="8" class="java.lang.String" itemvalue="updateTree" />
-          <item index="9" class="java.lang.String" itemvalue="label error" />
-          <item index="10" class="java.lang.String" itemvalue="添加" />
-          <item index="11" class="java.lang.String" itemvalue="addComponentItem" />
-          <item index="12" class="java.lang.String" itemvalue="async" />
-          <item index="13" class="java.lang.String" itemvalue="协议组名称" />
-          <item index="14" class="java.lang.String" itemvalue="selectComponentGroupNew" />
-          <item index="15" class="java.lang.String" itemvalue="self.checkExsit" />
-          <item index="16" class="java.lang.String" itemvalue="create component" />
-          <item index="17" class="java.lang.String" itemvalue="该协议" />
-          <item index="18" class="java.lang.String" itemvalue="create component error" />
-          <item index="19" class="java.lang.String" itemvalue="create" />
-          <item index="20" class="java.lang.String" itemvalue="checkExsit" />
-          <item index="21" class="java.lang.String" itemvalue="字段名" />
-          <item index="22" class="java.lang.String" itemvalue="组件预览" />
-          <item index="23" class="java.lang.String" itemvalue="componentPreview" />
-          <item index="24" class="java.lang.String" itemvalue="getProtocol" />
-          <item index="25" class="java.lang.String" itemvalue="_componentMap" />
-          <item index="26" class="java.lang.String" itemvalue="removeFromTree" />
-          <item index="27" class="java.lang.String" itemvalue="fuck" />
-          <item index="28" class="java.lang.String" itemvalue="tree" />
-          <item index="29" class="java.lang.String" itemvalue="removeComponent" />
+          <item index="0" class="java.lang.String" itemvalue="_markers" />
+          <item index="1" class="java.lang.String" itemvalue="97" />
+          <item index="2" class="java.lang.String" itemvalue="uuid_body" />
+          <item index="3" class="java.lang.String" itemvalue="col-sm-10" />
+          <item index="4" class="java.lang.String" itemvalue="showDevDetail" />
+          <item index="5" class="java.lang.String" itemvalue="Groups" />
+          <item index="6" class="java.lang.String" itemvalue="groups" />
+          <item index="7" class="java.lang.String" itemvalue="self.showDevDetail" />
+          <item index="8" class="java.lang.String" itemvalue="curGreen" />
+          <item index="9" class="java.lang.String" itemvalue="scripts.js" />
+          <item index="10" class="java.lang.String" itemvalue="imagemin" />
+          <item index="11" class="java.lang.String" itemvalue="swf" />
+          <item index="12" class="java.lang.String" itemvalue="focusOnMarker" />
+          <item index="13" class="java.lang.String" itemvalue="geo" />
+          <item index="14" class="java.lang.String" itemvalue="getDevInfoByUid" />
+          <item index="15" class="java.lang.String" itemvalue="geoGroups" />
+          <item index="16" class="java.lang.String" itemvalue="getProvinceList" />
+          <item index="17" class="java.lang.String" itemvalue="dest" />
+          <item index="18" class="java.lang.String" itemvalue="mainController" />
+          <item index="19" class="java.lang.String" itemvalue="destro" />
+          <item index="20" class="java.lang.String" itemvalue="scro" />
+          <item index="21" class="java.lang.String" itemvalue="assets/css/images/layers.png" />
+          <item index="22" class="java.lang.String" itemvalue="images/layers.png" />
+          <item index="23" class="java.lang.String" itemvalue="getLayers" />
+          <item index="24" class="java.lang.String" itemvalue="getGrounInfo" />
+          <item index="25" class="java.lang.String" itemvalue="addMarker" />
+          <item index="26" class="java.lang.String" itemvalue="citylist" />
+          <item index="27" class="java.lang.String" itemvalue="address" />
+          <item index="28" class="java.lang.String" itemvalue="getMarkerInfo" />
+          <item index="29" class="java.lang.String" itemvalue="self.addMarker" />
         </list>
       </value>
     </option>
     <option name="RECENT_REPLACE_STRINGS">
       <value>
-        <list size="0" />
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="YourIP" />
+        </list>
       </value>
     </option>
     <option name="RECENT_DIR_STRINGS">
       <value>
-        <list size="0" />
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="$USER_HOME$/code/yycloud/site/.tmp/public/scripts/models" />
+        </list>
       </value>
     </option>
     <option name="RECENT_FILE_MASKS">
@@ -111,33 +118,40 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/code/rsmonitor" />
+        <option value="$USER_HOME$/code/rsmonitor/config_site" />
+        <option value="$USER_HOME$/code/yycloud/site" />
+        <option value="$USER_HOME$/code/rsmonitor/rs_site" />
+        <option value="$USER_HOME$/code/rsmonitor/yycloud_site" />
+        <option value="$USER_HOME$/code/test_rtmp_player" />
+        <option value="$USER_HOME$/code/phone/radiostreamer" />
+        <option value="$USER_HOME$/code/temp/18wnl0x6t9c4yfk34d30qmzhvr9a5xkiuv866tuc1n9170xo-14993633287979757" />
+        <option value="$USER_HOME$/code/jwplayer/jwplayer" />
+        <option value="$USER_HOME$/Downloads/rsmonitor" />
+        <option value="$USER_HOME$/code/angular_part_backup" />
         <option value="$USER_HOME$/code/sails_playground/sailng" />
-        <option value="$USER_HOME$/code/sails_playground/temp" />
+        <option value="$USER_HOME$/code/famous-angular-yo" />
+        <option value="$USER_HOME$/code/rsmonitor/untitled" />
+        <option value="$USER_HOME$/code/rsmonitor/app_site" />
+        <option value="$USER_HOME$/code/rsmonitor" />
+        <option value="$USER_HOME$/code/famous-angular" />
+        <option value="$USER_HOME$/code/rsmonitor/receiver" />
+        <option value="$USER_HOME$/code/rsmonitor/yycloud_site/assets" />
+        <option value="$USER_HOME$/code/rsmonitor/admin_site" />
+        <option value="$USER_HOME$/code/rsmonitor/app_site/angular_part_backup" />
+        <option value="$USER_HOME$/code/rsmonitor/app_site/assets" />
         <option value="$USER_HOME$/code/ionic_playground" />
-        <option value="$USER_HOME$/code/sails_playground/sails-angular-jwt-example" />
-        <option value="$USER_HOME$/code/sails_playground/sails_angular_auth_jsonwebtoken" />
-        <option value="$USER_HOME$/code/rsmonitor/angular_app" />
-        <option value="$USER_HOME$/code/sails_playground/Schooner" />
+        <option value="$USER_HOME$/code/rsmonitor副本" />
         <option value="$USER_HOME$/code/ng-code2" />
-        <option value="$USER_HOME$/code/rsmonitor/lib/db/waterline_demo" />
-        <option value="$USER_HOME$/code/sails_playground/waterline" />
-        <option value="$USER_HOME$/code/sails_playground/testProject" />
-        <option value="$USER_HOME$/code/sails_playground/angular-on-sails" />
-        <option value="$USER_HOME$/code/codrops_practice/TabStylesInspiration" />
-        <option value="$USER_HOME$/code/codrops_practice/TooltipStylesInspiration" />
-        <option value="$USER_HOME$/code/rsmonitor/jsonWorkflow_demo" />
-        <option value="$USER_HOME$/code/ionic/myapp" />
-        <option value="$USER_HOME$/code/rsmonitor/nodeProxy_demo" />
+        <option value="$USER_HOME$/code/rsmonitor副本/angular_app" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/code/sails_playground/sailng" />
-        <option value="$USER_HOME$/code/rsmonitor" />
+        <option value="$USER_HOME$/code/rsmonitor/rs_site" />
+        <option value="$USER_HOME$/code/yycloud/site" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/code/rsmonitor" />
+    <option name="lastPath" value="$USER_HOME$/code/rsmonitor/config_site" />
   </component>
   <component name="Registry">
     <entry key="ide.mac.message.dialogs.as.sheets" value="true" />
@@ -195,7 +209,7 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1418863273678" />
+    <option name="LAST_TIME_CHECKED" value="1426842156760" />
     <option name="LAST_BUILD_CHECKED" value="WS-135.1063" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>

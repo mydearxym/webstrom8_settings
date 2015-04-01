@@ -7,6 +7,7 @@
     <toolWindow group="Debugger messages" />
     <toolWindow group="JavaScript debugger" />
     <toolWindow group="Vcs Messages" />
+    <toolWindow group="Common Version Control Messages" />
   </component>
 </application>
 

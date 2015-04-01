@@ -7,16 +7,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log(&quot;$s$&quot;);$END$" shortcut="ENTER" toReformat="true" toShortenFQNames="true">
+  <template name="cl" value="console.log(&quot;$s$&quot;)$END$" shortcut="ENTER" toReformat="true" toShortenFQNames="true">
     <variable name="s" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="di" value="directive(&quot;$a$&quot;,function(){&#10;  return {&#10;      restrict: &quot;E&quot;,&#10;      scope: {$b$},&#10;      template: '$c$'&#10;  }&#10;})" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="di" value="directive(&quot;$a$&quot;,function(){&#10;  return {&#10;      restrict: &quot;E&quot;,&#10;      scope: {},&#10;      controller: function($scope){&#10;        var self = $scope;&#10;        &#10;      },&#10;      templateUrl: ''&#10;  }&#10;})" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -98,13 +96,6 @@
     </context>
   </template>
   <template name="rsd" value="res.redirect(&quot;/&quot;);" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="fe" value="function(err, $a$) {&#10;  $b$&#10;}" toReformat="false" toShortenFQNames="true">
-    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -212,14 +203,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rs401" value="res.json(401, {$a$});" toReformat="false" toShortenFQNames="true">
-    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="rs401" value="return res.json(401, {error:err});" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rs403" value="res.json(403, {$a$})" toReformat="false" toShortenFQNames="true">
-    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="rs403" value="return res.json(403, {error: err});" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -238,10 +227,81 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="dq" value="var $a$ = $q.defer();&#10;return $a$.reject();&#10;return $a$.resolve();&#10;return $a$.promise;" toReformat="false" toShortenFQNames="true">
+  <template name="dq" value="var deferred = $q.defer();&#10;&#10;return deferred.reject();&#10;&#10;return deferred.resolve();&#10;&#10;return deferred.promise;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rs400" value="return res.json(400, {error: err});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="crs400" value="catch(function(err){&#10;  return res.json(400, {error: err});&#10;})" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="crs401" value="catch(function(err){&#10;  return res.json(401, {error: err});&#10;})" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="trs200" value="then(function($a$){&#10;  if( _.isUndefined($a$){&#10;    return res.json(200,[]);&#10;  })&#10;  return res.json(200,$a$);&#10;})" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="as" value="async.series([&#10;  function(cb) {&#10;    &#10;    cb();&#10;  },&#10;  &#10;  function(cb){&#10;  &#10;    cb();&#10;  }&#10;  &#10;], function(err, results){&#10;&#10;&#10;});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ap" value="async.parallel([&#10;  function(cb){&#10;    &#10;    cb(null, true);  &#10;  },&#10;&#10;  function(cb){&#10;      &#10;    cb(null, true);&#10;  }&#10;&#10;], function(err, results){&#10;&#10;&#10;})" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="aw" value="async.waterfall([&#10;  function(cb){&#10;  &#10;    cb(null, arg);&#10;  },&#10;  &#10;  function(arg, cb){&#10;  &#10;    cb(null ,'done')&#10;  }&#10;&#10;], function(err, result){&#10;&#10;&#10;});" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="isud" value="_.isUndefined($a$)" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ci" value="console.info($a$)" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ce" value="console.error($a$)" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fe" value="function(el){&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tt" value="{{&quot;$a$&quot; | translate}}" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="t" value=" | translate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
     </context>
   </template>
 </templateSet>
